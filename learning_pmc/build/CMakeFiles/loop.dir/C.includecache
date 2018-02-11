@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_pmc/loop.c
+stdio.h
+-
+unistd.h
+-
+stdint.h
+-
+

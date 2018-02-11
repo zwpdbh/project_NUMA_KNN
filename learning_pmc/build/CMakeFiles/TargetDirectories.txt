@@ -1,0 +1,4 @@
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_pmc/build/CMakeFiles/rebuild_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_pmc/build/CMakeFiles/edit_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_pmc/build/CMakeFiles/pmc_profiler.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_pmc/build/CMakeFiles/loop.dir

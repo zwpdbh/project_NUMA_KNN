@@ -1,0 +1,6 @@
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/build/CMakeFiles/rebuild_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/build/CMakeFiles/edit_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/build/CMakeFiles/demo_redirection.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/build/CMakeFiles/demo_waitpid.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/build/CMakeFiles/demo_signal_02.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/build/CMakeFiles/demo_signal_01.dir

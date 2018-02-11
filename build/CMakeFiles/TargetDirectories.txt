@@ -1,0 +1,15 @@
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/CMakeFiles/rebuild_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/CMakeFiles/edit_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/CMakeFiles/main.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/opencv_flann_demo.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/edit_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/rebuild_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/test_opencv_demo.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/flann_c_demo.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/flann_cpp_demo.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/CMakeFiles/rebuild_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/CMakeFiles/edit_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir

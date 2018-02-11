@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/demo_waitpid.cpp
+sys/types.h
+-
+sys/wait.h
+-
+unistd.h
+-
+cstdio
+-
+ctime
+-
+
+/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0/cstdio
+bits/c++config.h
+-
+stdio.h
+-
+
+/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0/ctime
+bits/c++config.h
+-
+time.h
+-
+

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/demo_redirection.cpp
+cstdlib
+-
+cstdio
+-
+fcntl.h
+-
+unistd.h
+-
+
+/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0/bits/std_abs.h
+bits/c++config.h
+-
+
+/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0/cstdio
+bits/c++config.h
+-
+stdio.h
+-
+
+/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0/cstdlib
+bits/c++config.h
+-
+bits/std_abs.h
+-
+
