@@ -11,7 +11,8 @@ set(CMAKE_C_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include"
-  "/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"
+  "/usr/local/Cellar/glib/2.54.3/include/glib-2.0"
+  "/usr/local/Cellar/glib/2.52.0/lib/glib-2.0/include"
   )
 
 # Targets to which this target links.

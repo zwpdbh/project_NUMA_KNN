@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named opencv_smoothing_image_demo
+
+# Build rule for target.
+opencv_smoothing_image_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencv_smoothing_image_demo
+.PHONY : opencv_smoothing_image_demo
+
+# fast build rule for target.
+opencv_smoothing_image_demo/fast:
+	$(MAKE) -f CMakeFiles/opencv_smoothing_image_demo.dir/build.make CMakeFiles/opencv_smoothing_image_demo.dir/build
+.PHONY : opencv_smoothing_image_demo/fast
+
+#=============================================================================
+# Target rules for targets named flann_with_opencv_demo.cpp
+
+# Build rule for target.
+flann_with_opencv_demo.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 flann_with_opencv_demo.cpp
+.PHONY : flann_with_opencv_demo.cpp
+
+# fast build rule for target.
+flann_with_opencv_demo.cpp/fast:
+	$(MAKE) -f CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make CMakeFiles/flann_with_opencv_demo.cpp.dir/build
+.PHONY : flann_with_opencv_demo.cpp/fast
+
+#=============================================================================
 # Target rules for targets named opencv_feature_detection_demo
 
 # Build rule for target.
@@ -124,17 +150,71 @@ opencv_feature_detection_demo/fast:
 .PHONY : opencv_feature_detection_demo/fast
 
 #=============================================================================
-# Target rules for targets named opencv_smoothing_image_demo
+# Target rules for targets named opencv_blur_image_demo
 
 # Build rule for target.
-opencv_smoothing_image_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 opencv_smoothing_image_demo
-.PHONY : opencv_smoothing_image_demo
+opencv_blur_image_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencv_blur_image_demo
+.PHONY : opencv_blur_image_demo
 
 # fast build rule for target.
-opencv_smoothing_image_demo/fast:
-	$(MAKE) -f CMakeFiles/opencv_smoothing_image_demo.dir/build.make CMakeFiles/opencv_smoothing_image_demo.dir/build
-.PHONY : opencv_smoothing_image_demo/fast
+opencv_blur_image_demo/fast:
+	$(MAKE) -f CMakeFiles/opencv_blur_image_demo.dir/build.make CMakeFiles/opencv_blur_image_demo.dir/build
+.PHONY : opencv_blur_image_demo/fast
+
+flann_with_opencv_demo.o: flann_with_opencv_demo.cpp.o
+
+.PHONY : flann_with_opencv_demo.o
+
+# target to build an object file
+flann_with_opencv_demo.cpp.o:
+	$(MAKE) -f CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.o
+.PHONY : flann_with_opencv_demo.cpp.o
+
+flann_with_opencv_demo.i: flann_with_opencv_demo.cpp.i
+
+.PHONY : flann_with_opencv_demo.i
+
+# target to preprocess a source file
+flann_with_opencv_demo.cpp.i:
+	$(MAKE) -f CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.i
+.PHONY : flann_with_opencv_demo.cpp.i
+
+flann_with_opencv_demo.s: flann_with_opencv_demo.cpp.s
+
+.PHONY : flann_with_opencv_demo.s
+
+# target to generate assembly for a file
+flann_with_opencv_demo.cpp.s:
+	$(MAKE) -f CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.s
+.PHONY : flann_with_opencv_demo.cpp.s
+
+opencv_blur_image_demo.o: opencv_blur_image_demo.cpp.o
+
+.PHONY : opencv_blur_image_demo.o
+
+# target to build an object file
+opencv_blur_image_demo.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv_blur_image_demo.dir/build.make CMakeFiles/opencv_blur_image_demo.dir/opencv_blur_image_demo.cpp.o
+.PHONY : opencv_blur_image_demo.cpp.o
+
+opencv_blur_image_demo.i: opencv_blur_image_demo.cpp.i
+
+.PHONY : opencv_blur_image_demo.i
+
+# target to preprocess a source file
+opencv_blur_image_demo.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv_blur_image_demo.dir/build.make CMakeFiles/opencv_blur_image_demo.dir/opencv_blur_image_demo.cpp.i
+.PHONY : opencv_blur_image_demo.cpp.i
+
+opencv_blur_image_demo.s: opencv_blur_image_demo.cpp.s
+
+.PHONY : opencv_blur_image_demo.s
+
+# target to generate assembly for a file
+opencv_blur_image_demo.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv_blur_image_demo.dir/build.make CMakeFiles/opencv_blur_image_demo.dir/opencv_blur_image_demo.cpp.s
+.PHONY : opencv_blur_image_demo.cpp.s
 
 opencv_feature_detection_demo.o: opencv_feature_detection_demo.cpp.o
 
@@ -198,8 +278,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... opencv_feature_detection_demo"
 	@echo "... opencv_smoothing_image_demo"
+	@echo "... flann_with_opencv_demo.cpp"
+	@echo "... opencv_feature_detection_demo"
+	@echo "... opencv_blur_image_demo"
+	@echo "... flann_with_opencv_demo.o"
+	@echo "... flann_with_opencv_demo.i"
+	@echo "... flann_with_opencv_demo.s"
+	@echo "... opencv_blur_image_demo.o"
+	@echo "... opencv_blur_image_demo.i"
+	@echo "... opencv_blur_image_demo.s"
 	@echo "... opencv_feature_detection_demo.o"
 	@echo "... opencv_feature_detection_demo.i"
 	@echo "... opencv_feature_detection_demo.s"

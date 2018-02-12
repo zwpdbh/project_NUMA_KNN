@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "../learning_Unix_programming/CMakeLists.txt"
   "../learning_flann/CMakeLists.txt"
+  "../opencv_related/CMakeLists.txt"
   "/usr/local/Cellar/cmake/3.10.2/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/Cellar/cmake/3.10.2/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/local/Cellar/cmake/3.10.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -43,17 +44,20 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "learning_flann/CMakeFiles/CMakeDirectoryInformation.cmake"
   "learning_Unix_programming/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "opencv_related/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main.dir/DependInfo.cmake"
-  "learning_flann/CMakeFiles/opencv_flann_demo.dir/DependInfo.cmake"
-  "learning_flann/CMakeFiles/test_opencv_demo.dir/DependInfo.cmake"
+  "CMakeFiles/flann_main.dir/DependInfo.cmake"
   "learning_flann/CMakeFiles/flann_c_demo.dir/DependInfo.cmake"
   "learning_flann/CMakeFiles/flann_cpp_demo.dir/DependInfo.cmake"
   "learning_Unix_programming/CMakeFiles/demo_redirection.dir/DependInfo.cmake"
   "learning_Unix_programming/CMakeFiles/demo_waitpid.dir/DependInfo.cmake"
   "learning_Unix_programming/CMakeFiles/demo_signal_02.dir/DependInfo.cmake"
   "learning_Unix_programming/CMakeFiles/demo_signal_01.dir/DependInfo.cmake"
+  "opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/DependInfo.cmake"
+  "opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/DependInfo.cmake"
+  "opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/DependInfo.cmake"
+  "opencv_related/CMakeFiles/opencv_blur_image_demo.dir/DependInfo.cmake"
   )

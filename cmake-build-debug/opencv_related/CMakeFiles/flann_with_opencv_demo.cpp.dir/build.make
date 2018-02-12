@@ -60,15 +60,15 @@ include opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flags.make
 opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.o: opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flags.make
 opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.o: ../opencv_related/flann_with_opencv_demo.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.o"
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related && /usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/flann_with_opencv_demo.cpp
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/flann_with_opencv_demo.cpp
 
 opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.i"
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/flann_with_opencv_demo.cpp > CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.i
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/flann_with_opencv_demo.cpp > CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.i
 
 opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.s"
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/flann_with_opencv_demo.cpp -o CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.s
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/flann_with_opencv_demo.cpp -o CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.s
 
 opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.o.requires:
 

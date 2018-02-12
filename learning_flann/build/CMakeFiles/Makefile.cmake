@@ -43,8 +43,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/opencv_flann_demo.dir/DependInfo.cmake"
-  "CMakeFiles/test_opencv_demo.dir/DependInfo.cmake"
   "CMakeFiles/flann_c_demo.dir/DependInfo.cmake"
   "CMakeFiles/flann_cpp_demo.dir/DependInfo.cmake"
   )

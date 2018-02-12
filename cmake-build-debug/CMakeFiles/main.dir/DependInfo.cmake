@@ -14,7 +14,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include"
-  "/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"
   )
 
 # Targets to which this target links.

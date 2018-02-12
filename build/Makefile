@@ -111,43 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named flann_main
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+flann_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 flann_main
+.PHONY : flann_main
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named opencv_flann_demo
-
-# Build rule for target.
-opencv_flann_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 opencv_flann_demo
-.PHONY : opencv_flann_demo
-
-# fast build rule for target.
-opencv_flann_demo/fast:
-	$(MAKE) -f learning_flann/CMakeFiles/opencv_flann_demo.dir/build.make learning_flann/CMakeFiles/opencv_flann_demo.dir/build
-.PHONY : opencv_flann_demo/fast
-
-#=============================================================================
-# Target rules for targets named test_opencv_demo
-
-# Build rule for target.
-test_opencv_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_opencv_demo
-.PHONY : test_opencv_demo
-
-# fast build rule for target.
-test_opencv_demo/fast:
-	$(MAKE) -f learning_flann/CMakeFiles/test_opencv_demo.dir/build.make learning_flann/CMakeFiles/test_opencv_demo.dir/build
-.PHONY : test_opencv_demo/fast
+flann_main/fast:
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/build
+.PHONY : flann_main/fast
 
 #=============================================================================
 # Target rules for targets named flann_c_demo
@@ -227,13 +201,65 @@ demo_signal_01/fast:
 	$(MAKE) -f learning_Unix_programming/CMakeFiles/demo_signal_01.dir/build.make learning_Unix_programming/CMakeFiles/demo_signal_01.dir/build
 .PHONY : demo_signal_01/fast
 
+#=============================================================================
+# Target rules for targets named opencv_smoothing_image_demo
+
+# Build rule for target.
+opencv_smoothing_image_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencv_smoothing_image_demo
+.PHONY : opencv_smoothing_image_demo
+
+# fast build rule for target.
+opencv_smoothing_image_demo/fast:
+	$(MAKE) -f opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build
+.PHONY : opencv_smoothing_image_demo/fast
+
+#=============================================================================
+# Target rules for targets named flann_with_opencv_demo.cpp
+
+# Build rule for target.
+flann_with_opencv_demo.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 flann_with_opencv_demo.cpp
+.PHONY : flann_with_opencv_demo.cpp
+
+# fast build rule for target.
+flann_with_opencv_demo.cpp/fast:
+	$(MAKE) -f opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build
+.PHONY : flann_with_opencv_demo.cpp/fast
+
+#=============================================================================
+# Target rules for targets named opencv_feature_detection_demo
+
+# Build rule for target.
+opencv_feature_detection_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencv_feature_detection_demo
+.PHONY : opencv_feature_detection_demo
+
+# fast build rule for target.
+opencv_feature_detection_demo/fast:
+	$(MAKE) -f opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/build.make opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/build
+.PHONY : opencv_feature_detection_demo/fast
+
+#=============================================================================
+# Target rules for targets named opencv_blur_image_demo
+
+# Build rule for target.
+opencv_blur_image_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencv_blur_image_demo
+.PHONY : opencv_blur_image_demo
+
+# fast build rule for target.
+opencv_blur_image_demo/fast:
+	$(MAKE) -f opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build
+.PHONY : opencv_blur_image_demo/fast
+
 csv_parser.o: csv_parser.cpp.o
 
 .PHONY : csv_parser.o
 
 # target to build an object file
 csv_parser.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/csv_parser.cpp.o
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/csv_parser.cpp.o
 .PHONY : csv_parser.cpp.o
 
 csv_parser.i: csv_parser.cpp.i
@@ -242,7 +268,7 @@ csv_parser.i: csv_parser.cpp.i
 
 # target to preprocess a source file
 csv_parser.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/csv_parser.cpp.i
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/csv_parser.cpp.i
 .PHONY : csv_parser.cpp.i
 
 csv_parser.s: csv_parser.cpp.s
@@ -251,7 +277,7 @@ csv_parser.s: csv_parser.cpp.s
 
 # target to generate assembly for a file
 csv_parser.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/csv_parser.cpp.s
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/csv_parser.cpp.s
 .PHONY : csv_parser.cpp.s
 
 main.o: main.cpp.o
@@ -260,7 +286,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -269,7 +295,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -278,7 +304,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 rbc_index.o: rbc_index.cpp.o
@@ -287,7 +313,7 @@ rbc_index.o: rbc_index.cpp.o
 
 # target to build an object file
 rbc_index.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rbc_index.cpp.o
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/rbc_index.cpp.o
 .PHONY : rbc_index.cpp.o
 
 rbc_index.i: rbc_index.cpp.i
@@ -296,7 +322,7 @@ rbc_index.i: rbc_index.cpp.i
 
 # target to preprocess a source file
 rbc_index.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rbc_index.cpp.i
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/rbc_index.cpp.i
 .PHONY : rbc_index.cpp.i
 
 rbc_index.s: rbc_index.cpp.s
@@ -305,7 +331,7 @@ rbc_index.s: rbc_index.cpp.s
 
 # target to generate assembly for a file
 rbc_index.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rbc_index.cpp.s
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/rbc_index.cpp.s
 .PHONY : rbc_index.cpp.s
 
 sdc_index.o: sdc_index.cpp.o
@@ -314,7 +340,7 @@ sdc_index.o: sdc_index.cpp.o
 
 # target to build an object file
 sdc_index.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sdc_index.cpp.o
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/sdc_index.cpp.o
 .PHONY : sdc_index.cpp.o
 
 sdc_index.i: sdc_index.cpp.i
@@ -323,7 +349,7 @@ sdc_index.i: sdc_index.cpp.i
 
 # target to preprocess a source file
 sdc_index.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sdc_index.cpp.i
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/sdc_index.cpp.i
 .PHONY : sdc_index.cpp.i
 
 sdc_index.s: sdc_index.cpp.s
@@ -332,7 +358,7 @@ sdc_index.s: sdc_index.cpp.s
 
 # target to generate assembly for a file
 sdc_index.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sdc_index.cpp.s
+	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/sdc_index.cpp.s
 .PHONY : sdc_index.cpp.s
 
 # Help Target
@@ -343,15 +369,17 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... main"
-	@echo "... opencv_flann_demo"
-	@echo "... test_opencv_demo"
+	@echo "... flann_main"
 	@echo "... flann_c_demo"
 	@echo "... flann_cpp_demo"
 	@echo "... demo_redirection"
 	@echo "... demo_waitpid"
 	@echo "... demo_signal_02"
 	@echo "... demo_signal_01"
+	@echo "... opencv_smoothing_image_demo"
+	@echo "... flann_with_opencv_demo.cpp"
+	@echo "... opencv_feature_detection_demo"
+	@echo "... opencv_blur_image_demo"
 	@echo "... csv_parser.o"
 	@echo "... csv_parser.i"
 	@echo "... csv_parser.s"

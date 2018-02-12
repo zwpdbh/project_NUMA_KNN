@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/lear
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.9.4/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/Cellar/cmake/3.9.4/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,32 +109,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named opencv_flann_demo
-
-# Build rule for target.
-opencv_flann_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 opencv_flann_demo
-.PHONY : opencv_flann_demo
-
-# fast build rule for target.
-opencv_flann_demo/fast:
-	$(MAKE) -f CMakeFiles/opencv_flann_demo.dir/build.make CMakeFiles/opencv_flann_demo.dir/build
-.PHONY : opencv_flann_demo/fast
-
-#=============================================================================
-# Target rules for targets named test_opencv_demo
-
-# Build rule for target.
-test_opencv_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_opencv_demo
-.PHONY : test_opencv_demo
-
-# fast build rule for target.
-test_opencv_demo/fast:
-	$(MAKE) -f CMakeFiles/test_opencv_demo.dir/build.make CMakeFiles/test_opencv_demo.dir/build
-.PHONY : test_opencv_demo/fast
 
 #=============================================================================
 # Target rules for targets named flann_c_demo
@@ -216,70 +190,14 @@ flann_demo_c_01.c.s:
 	$(MAKE) -f CMakeFiles/flann_c_demo.dir/build.make CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.s
 .PHONY : flann_demo_c_01.c.s
 
-flann_opencv_demo.o: flann_opencv_demo.cpp.o
-
-.PHONY : flann_opencv_demo.o
-
-# target to build an object file
-flann_opencv_demo.cpp.o:
-	$(MAKE) -f CMakeFiles/opencv_flann_demo.dir/build.make CMakeFiles/opencv_flann_demo.dir/flann_opencv_demo.cpp.o
-.PHONY : flann_opencv_demo.cpp.o
-
-flann_opencv_demo.i: flann_opencv_demo.cpp.i
-
-.PHONY : flann_opencv_demo.i
-
-# target to preprocess a source file
-flann_opencv_demo.cpp.i:
-	$(MAKE) -f CMakeFiles/opencv_flann_demo.dir/build.make CMakeFiles/opencv_flann_demo.dir/flann_opencv_demo.cpp.i
-.PHONY : flann_opencv_demo.cpp.i
-
-flann_opencv_demo.s: flann_opencv_demo.cpp.s
-
-.PHONY : flann_opencv_demo.s
-
-# target to generate assembly for a file
-flann_opencv_demo.cpp.s:
-	$(MAKE) -f CMakeFiles/opencv_flann_demo.dir/build.make CMakeFiles/opencv_flann_demo.dir/flann_opencv_demo.cpp.s
-.PHONY : flann_opencv_demo.cpp.s
-
-test_opencv_demo.o: test_opencv_demo.cpp.o
-
-.PHONY : test_opencv_demo.o
-
-# target to build an object file
-test_opencv_demo.cpp.o:
-	$(MAKE) -f CMakeFiles/test_opencv_demo.dir/build.make CMakeFiles/test_opencv_demo.dir/test_opencv_demo.cpp.o
-.PHONY : test_opencv_demo.cpp.o
-
-test_opencv_demo.i: test_opencv_demo.cpp.i
-
-.PHONY : test_opencv_demo.i
-
-# target to preprocess a source file
-test_opencv_demo.cpp.i:
-	$(MAKE) -f CMakeFiles/test_opencv_demo.dir/build.make CMakeFiles/test_opencv_demo.dir/test_opencv_demo.cpp.i
-.PHONY : test_opencv_demo.cpp.i
-
-test_opencv_demo.s: test_opencv_demo.cpp.s
-
-.PHONY : test_opencv_demo.s
-
-# target to generate assembly for a file
-test_opencv_demo.cpp.s:
-	$(MAKE) -f CMakeFiles/test_opencv_demo.dir/build.make CMakeFiles/test_opencv_demo.dir/test_opencv_demo.cpp.s
-.PHONY : test_opencv_demo.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... opencv_flann_demo"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test_opencv_demo"
+	@echo "... edit_cache"
 	@echo "... flann_c_demo"
 	@echo "... flann_cpp_demo"
 	@echo "... flann_demo_01.o"
@@ -288,12 +206,6 @@ help:
 	@echo "... flann_demo_c_01.o"
 	@echo "... flann_demo_c_01.i"
 	@echo "... flann_demo_c_01.s"
-	@echo "... flann_opencv_demo.o"
-	@echo "... flann_opencv_demo.i"
-	@echo "... flann_opencv_demo.s"
-	@echo "... test_opencv_demo.o"
-	@echo "... test_opencv_demo.i"
-	@echo "... test_opencv_demo.s"
 .PHONY : help
 
 

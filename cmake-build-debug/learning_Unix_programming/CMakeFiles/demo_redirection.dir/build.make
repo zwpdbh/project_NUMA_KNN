@@ -60,15 +60,15 @@ include learning_Unix_programming/CMakeFiles/demo_redirection.dir/flags.make
 learning_Unix_programming/CMakeFiles/demo_redirection.dir/demo_redirection.cpp.o: learning_Unix_programming/CMakeFiles/demo_redirection.dir/flags.make
 learning_Unix_programming/CMakeFiles/demo_redirection.dir/demo_redirection.cpp.o: ../learning_Unix_programming/demo_redirection.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object learning_Unix_programming/CMakeFiles/demo_redirection.dir/demo_redirection.cpp.o"
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_Unix_programming && /usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_redirection.dir/demo_redirection.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/demo_redirection.cpp
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_Unix_programming && /usr/local/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_redirection.dir/demo_redirection.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/demo_redirection.cpp
 
 learning_Unix_programming/CMakeFiles/demo_redirection.dir/demo_redirection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_redirection.dir/demo_redirection.cpp.i"
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_Unix_programming && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/demo_redirection.cpp > CMakeFiles/demo_redirection.dir/demo_redirection.cpp.i
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_Unix_programming && /usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/demo_redirection.cpp > CMakeFiles/demo_redirection.dir/demo_redirection.cpp.i
 
 learning_Unix_programming/CMakeFiles/demo_redirection.dir/demo_redirection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_redirection.dir/demo_redirection.cpp.s"
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_Unix_programming && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/demo_redirection.cpp -o CMakeFiles/demo_redirection.dir/demo_redirection.cpp.s
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_Unix_programming && /usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/demo_redirection.cpp -o CMakeFiles/demo_redirection.dir/demo_redirection.cpp.s
 
 learning_Unix_programming/CMakeFiles/demo_redirection.dir/demo_redirection.cpp.o.requires:
 

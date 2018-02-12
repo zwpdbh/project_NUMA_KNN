@@ -16,19 +16,3 @@ fcntl.h
 unistd.h
 -
 
-/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0/bits/std_abs.h
-bits/c++config.h
--
-
-/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0/cstdio
-bits/c++config.h
--
-stdio.h
--
-
-/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0/cstdlib
-bits/c++config.h
--
-bits/std_abs.h
--
-

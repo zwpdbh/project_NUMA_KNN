@@ -111,6 +111,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/rule:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/rule
+.PHONY : opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/rule
+
+# Convenience name for target.
+opencv_smoothing_image_demo: opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/rule
+
+.PHONY : opencv_smoothing_image_demo
+
+# fast build rule for target.
+opencv_smoothing_image_demo/fast:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build
+.PHONY : opencv_smoothing_image_demo/fast
+
+# Convenience name for target.
+opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/rule:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/rule
+.PHONY : opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/rule
+
+# Convenience name for target.
+flann_with_opencv_demo.cpp: opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/rule
+
+.PHONY : flann_with_opencv_demo.cpp
+
+# fast build rule for target.
+flann_with_opencv_demo.cpp/fast:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build
+.PHONY : flann_with_opencv_demo.cpp/fast
+
+# Convenience name for target.
 opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/rule:
 	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/rule
 .PHONY : opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/rule
@@ -126,19 +156,73 @@ opencv_feature_detection_demo/fast:
 .PHONY : opencv_feature_detection_demo/fast
 
 # Convenience name for target.
-opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/rule:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/rule
-.PHONY : opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/rule
+opencv_related/CMakeFiles/opencv_blur_image_demo.dir/rule:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 opencv_related/CMakeFiles/opencv_blur_image_demo.dir/rule
+.PHONY : opencv_related/CMakeFiles/opencv_blur_image_demo.dir/rule
 
 # Convenience name for target.
-opencv_smoothing_image_demo: opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/rule
+opencv_blur_image_demo: opencv_related/CMakeFiles/opencv_blur_image_demo.dir/rule
 
-.PHONY : opencv_smoothing_image_demo
+.PHONY : opencv_blur_image_demo
 
 # fast build rule for target.
-opencv_smoothing_image_demo/fast:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build
-.PHONY : opencv_smoothing_image_demo/fast
+opencv_blur_image_demo/fast:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build
+.PHONY : opencv_blur_image_demo/fast
+
+flann_with_opencv_demo.o: flann_with_opencv_demo.cpp.o
+
+.PHONY : flann_with_opencv_demo.o
+
+# target to build an object file
+flann_with_opencv_demo.cpp.o:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.o
+.PHONY : flann_with_opencv_demo.cpp.o
+
+flann_with_opencv_demo.i: flann_with_opencv_demo.cpp.i
+
+.PHONY : flann_with_opencv_demo.i
+
+# target to preprocess a source file
+flann_with_opencv_demo.cpp.i:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.i
+.PHONY : flann_with_opencv_demo.cpp.i
+
+flann_with_opencv_demo.s: flann_with_opencv_demo.cpp.s
+
+.PHONY : flann_with_opencv_demo.s
+
+# target to generate assembly for a file
+flann_with_opencv_demo.cpp.s:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.s
+.PHONY : flann_with_opencv_demo.cpp.s
+
+opencv_blur_image_demo.o: opencv_blur_image_demo.cpp.o
+
+.PHONY : opencv_blur_image_demo.o
+
+# target to build an object file
+opencv_blur_image_demo.cpp.o:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_blur_image_demo.dir/opencv_blur_image_demo.cpp.o
+.PHONY : opencv_blur_image_demo.cpp.o
+
+opencv_blur_image_demo.i: opencv_blur_image_demo.cpp.i
+
+.PHONY : opencv_blur_image_demo.i
+
+# target to preprocess a source file
+opencv_blur_image_demo.cpp.i:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_blur_image_demo.dir/opencv_blur_image_demo.cpp.i
+.PHONY : opencv_blur_image_demo.cpp.i
+
+opencv_blur_image_demo.s: opencv_blur_image_demo.cpp.s
+
+.PHONY : opencv_blur_image_demo.s
+
+# target to generate assembly for a file
+opencv_blur_image_demo.cpp.s:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_blur_image_demo.dir/opencv_blur_image_demo.cpp.s
+.PHONY : opencv_blur_image_demo.cpp.s
 
 opencv_feature_detection_demo.o: opencv_feature_detection_demo.cpp.o
 
@@ -202,8 +286,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... opencv_feature_detection_demo"
 	@echo "... opencv_smoothing_image_demo"
+	@echo "... flann_with_opencv_demo.cpp"
+	@echo "... opencv_feature_detection_demo"
+	@echo "... opencv_blur_image_demo"
+	@echo "... flann_with_opencv_demo.o"
+	@echo "... flann_with_opencv_demo.i"
+	@echo "... flann_with_opencv_demo.s"
+	@echo "... opencv_blur_image_demo.o"
+	@echo "... opencv_blur_image_demo.i"
+	@echo "... opencv_blur_image_demo.s"
 	@echo "... opencv_feature_detection_demo.o"
 	@echo "... opencv_feature_detection_demo.i"
 	@echo "... opencv_feature_detection_demo.s"

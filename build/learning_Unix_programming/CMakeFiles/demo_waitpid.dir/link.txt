@@ -1,1 +1,1 @@
-/usr/local/Cellar/gcc/7.2.0/bin/g++-7   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/demo_waitpid.dir/demo_waitpid.cpp.o  -o ../../bin/demo_waitpid -lflann -lgsl -lgslcblas -lrbc -lgomp 
+/usr/local/bin/g++-7   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/demo_waitpid.dir/demo_waitpid.cpp.o  -o ../../bin/demo_waitpid  -L/usr/local/lib/gcc/7 -Wl,-rpath,/usr/local/lib/gcc/7 -lflann -lgsl -lgslcblas -lrbc -lgomp 

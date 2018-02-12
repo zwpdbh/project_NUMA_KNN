@@ -43,6 +43,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/opencv_feature_detection_demo.dir/DependInfo.cmake"
   "CMakeFiles/opencv_smoothing_image_demo.dir/DependInfo.cmake"
+  "CMakeFiles/flann_with_opencv_demo.cpp.dir/DependInfo.cmake"
+  "CMakeFiles/opencv_feature_detection_demo.dir/DependInfo.cmake"
+  "CMakeFiles/opencv_blur_image_demo.dir/DependInfo.cmake"
   )

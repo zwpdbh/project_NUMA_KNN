@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/cmake_install.cmake")
   include("/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/cmake_install.cmake")
+  include("/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/opencv_related/cmake_install.cmake")
 
 endif()
 

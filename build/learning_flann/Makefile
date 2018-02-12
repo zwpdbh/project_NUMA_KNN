@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.10.2/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/Cellar/cmake/3.10.2/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,36 +109,6 @@ preinstall/fast:
 depend:
 	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-# Convenience name for target.
-learning_flann/CMakeFiles/opencv_flann_demo.dir/rule:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/opencv_flann_demo.dir/rule
-.PHONY : learning_flann/CMakeFiles/opencv_flann_demo.dir/rule
-
-# Convenience name for target.
-opencv_flann_demo: learning_flann/CMakeFiles/opencv_flann_demo.dir/rule
-
-.PHONY : opencv_flann_demo
-
-# fast build rule for target.
-opencv_flann_demo/fast:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/opencv_flann_demo.dir/build.make learning_flann/CMakeFiles/opencv_flann_demo.dir/build
-.PHONY : opencv_flann_demo/fast
-
-# Convenience name for target.
-learning_flann/CMakeFiles/test_opencv_demo.dir/rule:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/test_opencv_demo.dir/rule
-.PHONY : learning_flann/CMakeFiles/test_opencv_demo.dir/rule
-
-# Convenience name for target.
-test_opencv_demo: learning_flann/CMakeFiles/test_opencv_demo.dir/rule
-
-.PHONY : test_opencv_demo
-
-# fast build rule for target.
-test_opencv_demo/fast:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/test_opencv_demo.dir/build.make learning_flann/CMakeFiles/test_opencv_demo.dir/build
-.PHONY : test_opencv_demo/fast
 
 # Convenience name for target.
 learning_flann/CMakeFiles/flann_c_demo.dir/rule:
@@ -224,70 +194,14 @@ flann_demo_c_01.c.s:
 	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.s
 .PHONY : flann_demo_c_01.c.s
 
-flann_opencv_demo.o: flann_opencv_demo.cpp.o
-
-.PHONY : flann_opencv_demo.o
-
-# target to build an object file
-flann_opencv_demo.cpp.o:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/opencv_flann_demo.dir/build.make learning_flann/CMakeFiles/opencv_flann_demo.dir/flann_opencv_demo.cpp.o
-.PHONY : flann_opencv_demo.cpp.o
-
-flann_opencv_demo.i: flann_opencv_demo.cpp.i
-
-.PHONY : flann_opencv_demo.i
-
-# target to preprocess a source file
-flann_opencv_demo.cpp.i:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/opencv_flann_demo.dir/build.make learning_flann/CMakeFiles/opencv_flann_demo.dir/flann_opencv_demo.cpp.i
-.PHONY : flann_opencv_demo.cpp.i
-
-flann_opencv_demo.s: flann_opencv_demo.cpp.s
-
-.PHONY : flann_opencv_demo.s
-
-# target to generate assembly for a file
-flann_opencv_demo.cpp.s:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/opencv_flann_demo.dir/build.make learning_flann/CMakeFiles/opencv_flann_demo.dir/flann_opencv_demo.cpp.s
-.PHONY : flann_opencv_demo.cpp.s
-
-test_opencv_demo.o: test_opencv_demo.cpp.o
-
-.PHONY : test_opencv_demo.o
-
-# target to build an object file
-test_opencv_demo.cpp.o:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/test_opencv_demo.dir/build.make learning_flann/CMakeFiles/test_opencv_demo.dir/test_opencv_demo.cpp.o
-.PHONY : test_opencv_demo.cpp.o
-
-test_opencv_demo.i: test_opencv_demo.cpp.i
-
-.PHONY : test_opencv_demo.i
-
-# target to preprocess a source file
-test_opencv_demo.cpp.i:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/test_opencv_demo.dir/build.make learning_flann/CMakeFiles/test_opencv_demo.dir/test_opencv_demo.cpp.i
-.PHONY : test_opencv_demo.cpp.i
-
-test_opencv_demo.s: test_opencv_demo.cpp.s
-
-.PHONY : test_opencv_demo.s
-
-# target to generate assembly for a file
-test_opencv_demo.cpp.s:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/test_opencv_demo.dir/build.make learning_flann/CMakeFiles/test_opencv_demo.dir/test_opencv_demo.cpp.s
-.PHONY : test_opencv_demo.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... opencv_flann_demo"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test_opencv_demo"
+	@echo "... edit_cache"
 	@echo "... flann_c_demo"
 	@echo "... flann_cpp_demo"
 	@echo "... flann_demo_01.o"
@@ -296,12 +210,6 @@ help:
 	@echo "... flann_demo_c_01.o"
 	@echo "... flann_demo_c_01.i"
 	@echo "... flann_demo_c_01.s"
-	@echo "... flann_opencv_demo.o"
-	@echo "... flann_opencv_demo.i"
-	@echo "... flann_opencv_demo.s"
-	@echo "... test_opencv_demo.o"
-	@echo "... test_opencv_demo.i"
-	@echo "... test_opencv_demo.s"
 .PHONY : help
 
 

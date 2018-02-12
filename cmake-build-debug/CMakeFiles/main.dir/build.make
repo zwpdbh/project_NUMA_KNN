@@ -60,15 +60,15 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/main.cpp
+	/usr/local/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 CMakeFiles/main.dir/main.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/main.dir/main.cpp.o.provides.build: CMakeFiles/main.dir/main.cpp.o
 CMakeFiles/main.dir/csv_parser.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/csv_parser.cpp.o: ../csv_parser.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/csv_parser.cpp.o"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/csv_parser.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/csv_parser.cpp
+	/usr/local/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/csv_parser.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/csv_parser.cpp
 
 CMakeFiles/main.dir/csv_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/csv_parser.cpp.i"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/csv_parser.cpp > CMakeFiles/main.dir/csv_parser.cpp.i
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/csv_parser.cpp > CMakeFiles/main.dir/csv_parser.cpp.i
 
 CMakeFiles/main.dir/csv_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/csv_parser.cpp.s"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/csv_parser.cpp -o CMakeFiles/main.dir/csv_parser.cpp.s
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/csv_parser.cpp -o CMakeFiles/main.dir/csv_parser.cpp.s
 
 CMakeFiles/main.dir/csv_parser.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/main.dir/csv_parser.cpp.o.provides.build: CMakeFiles/main.dir/csv_par
 CMakeFiles/main.dir/rbc_index.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/rbc_index.cpp.o: ../rbc_index.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/rbc_index.cpp.o"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/rbc_index.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/rbc_index.cpp
+	/usr/local/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/rbc_index.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/rbc_index.cpp
 
 CMakeFiles/main.dir/rbc_index.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/rbc_index.cpp.i"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/rbc_index.cpp > CMakeFiles/main.dir/rbc_index.cpp.i
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/rbc_index.cpp > CMakeFiles/main.dir/rbc_index.cpp.i
 
 CMakeFiles/main.dir/rbc_index.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/rbc_index.cpp.s"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/rbc_index.cpp -o CMakeFiles/main.dir/rbc_index.cpp.s
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/rbc_index.cpp -o CMakeFiles/main.dir/rbc_index.cpp.s
 
 CMakeFiles/main.dir/rbc_index.cpp.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/main.dir/rbc_index.cpp.o.provides.build: CMakeFiles/main.dir/rbc_inde
 CMakeFiles/main.dir/sdc_index.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/sdc_index.cpp.o: ../sdc_index.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/sdc_index.cpp.o"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/sdc_index.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/sdc_index.cpp
+	/usr/local/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/sdc_index.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/sdc_index.cpp
 
 CMakeFiles/main.dir/sdc_index.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/sdc_index.cpp.i"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/sdc_index.cpp > CMakeFiles/main.dir/sdc_index.cpp.i
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/sdc_index.cpp > CMakeFiles/main.dir/sdc_index.cpp.i
 
 CMakeFiles/main.dir/sdc_index.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/sdc_index.cpp.s"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/sdc_index.cpp -o CMakeFiles/main.dir/sdc_index.cpp.s
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/sdc_index.cpp -o CMakeFiles/main.dir/sdc_index.cpp.s
 
 CMakeFiles/main.dir/sdc_index.cpp.o.requires:
 

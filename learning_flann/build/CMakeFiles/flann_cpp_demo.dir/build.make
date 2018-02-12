@@ -60,15 +60,15 @@ include CMakeFiles/flann_cpp_demo.dir/flags.make
 CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o: CMakeFiles/flann_cpp_demo.dir/flags.make
 CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o: ../flann_demo_01.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp
+	/usr/local/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp
 
 CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.i"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp > CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.i
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp > CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.i
 
 CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp -o CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp -o CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s
 
 CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o.requires:
 

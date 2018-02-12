@@ -37,15 +37,14 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main">
-				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/main" prefix_auto="0" extension_auto="0"/>
+			<Target title="flann_main">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/flann_main" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -57,21 +56,20 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 flann_main"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main/fast">
-				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/main" prefix_auto="0" extension_auto="0"/>
+			<Target title="flann_main/fast">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/flann_main" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -83,7 +81,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 flann_main/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -97,7 +95,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.52.0/lib/glib-2.0/include"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -123,7 +122,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.52.0/lib/glib-2.0/include"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -149,7 +149,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.52.0/lib/glib-2.0/include"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -175,7 +176,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.52.0/lib/glib-2.0/include"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -201,8 +203,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -228,8 +228,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -255,8 +253,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -282,8 +278,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -309,8 +303,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -336,8 +328,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -363,8 +353,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -390,8 +378,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
@@ -409,60 +395,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_Unix_programming/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="opencv_feature_detection_demo">
-				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/opencv_feature_detection_demo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/opencv/3.4.0_1/include/opencv"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 opencv_feature_detection_demo"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="opencv_feature_detection_demo/fast">
-				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/opencv_feature_detection_demo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/opencv/3.4.0_1/include/opencv"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 opencv_feature_detection_demo/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="opencv_smoothing_image_demo">
 				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/opencv_smoothing_image_demo" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
@@ -471,7 +403,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/opencv/3.4.0_1/include/opencv"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
@@ -498,7 +429,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/7.2.0/include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/opencv/3.4.0_1/include/opencv"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
 					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
@@ -517,24 +447,180 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="flann_with_opencv_demo.cpp">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/flann_with_opencv_demo.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/3.4.0_1/include/opencv"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 flann_with_opencv_demo.cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flann_with_opencv_demo.cpp/fast">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/flann_with_opencv_demo.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/3.4.0_1/include/opencv"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 flann_with_opencv_demo.cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_feature_detection_demo">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/opencv_feature_detection_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/3.4.0_1/include/opencv"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 opencv_feature_detection_demo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_feature_detection_demo/fast">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/opencv_feature_detection_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/3.4.0_1/include/opencv"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 opencv_feature_detection_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_blur_image_demo">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/opencv_blur_image_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/3.4.0_1/include/opencv"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 opencv_blur_image_demo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_blur_image_demo/fast">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/opencv_blur_image_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/3.4.0_1/include/opencv"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 opencv_blur_image_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/common.h">
-			<Option target="main"/>
+			<Option target="flann_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/csv_parser.cpp">
-			<Option target="main"/>
+			<Option target="flann_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/csv_parser.h">
-			<Option target="main"/>
+			<Option target="flann_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/flann_kdtree_index.h">
-			<Option target="main"/>
+			<Option target="flann_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/flann_kmeans_index.h">
-			<Option target="main"/>
+			<Option target="flann_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/flann_linear_index.h">
-			<Option target="main"/>
+			<Option target="flann_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/demo_redirection.cpp">
 			<Option target="demo_redirection"/>
@@ -555,10 +641,16 @@
 			<Option target="flann_c_demo"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/main.cpp">
-			<Option target="main"/>
+			<Option target="flann_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/main.h">
-			<Option target="main"/>
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/flann_with_opencv_demo.cpp">
+			<Option target="flann_with_opencv_demo.cpp"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_blur_image_demo.cpp">
+			<Option target="opencv_blur_image_demo"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_feature_detection_demo.cpp">
 			<Option target="opencv_feature_detection_demo"/>
@@ -567,16 +659,16 @@
 			<Option target="opencv_smoothing_image_demo"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/rbc_index.cpp">
-			<Option target="main"/>
+			<Option target="flann_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/rbc_index.h">
-			<Option target="main"/>
+			<Option target="flann_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/sdc_index.cpp">
-			<Option target="main"/>
+			<Option target="flann_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/sdc_index.h">
-			<Option target="main"/>
+			<Option target="flann_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

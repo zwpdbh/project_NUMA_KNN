@@ -60,15 +60,15 @@ include CMakeFiles/opencv_smoothing_image_demo.dir/flags.make
 CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.o: CMakeFiles/opencv_smoothing_image_demo.dir/flags.make
 CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.o: ../opencv_smoothing_image_demo.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.o"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_smoothing_image_demo.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_smoothing_image_demo.cpp
 
 CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.i"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_smoothing_image_demo.cpp > CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_smoothing_image_demo.cpp > CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.i
 
 CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.s"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_smoothing_image_demo.cpp -o CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_smoothing_image_demo.cpp -o CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.s
 
 CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.o.requires:
 

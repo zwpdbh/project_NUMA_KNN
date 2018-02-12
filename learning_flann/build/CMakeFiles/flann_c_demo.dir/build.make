@@ -60,15 +60,15 @@ include CMakeFiles/flann_c_demo.dir/flags.make
 CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.o: CMakeFiles/flann_c_demo.dir/flags.make
 CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.o: ../flann_demo_c_01.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.o"
-	/usr/local/Cellar/gcc/7.2.0/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.o   -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_c_01.c
+	/usr/local/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.o   -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_c_01.c
 
 CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.i"
-	/usr/local/Cellar/gcc/7.2.0/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_c_01.c > CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.i
+	/usr/local/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_c_01.c > CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.i
 
 CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.s"
-	/usr/local/Cellar/gcc/7.2.0/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_c_01.c -o CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.s
+	/usr/local/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_c_01.c -o CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.s
 
 CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.o.requires:
 
