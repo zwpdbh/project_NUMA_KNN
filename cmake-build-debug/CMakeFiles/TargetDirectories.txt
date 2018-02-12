@@ -1,6 +1,5 @@
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles/flann_main.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/CMakeFiles/rebuild_cache.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/CMakeFiles/edit_cache.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/CMakeFiles/flann_c_demo.dir
@@ -17,3 +16,6 @@
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/opencv_related/CMakeFiles/opencv_blur_image_demo.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/CMakeFiles/rebuild_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/CMakeFiles/edit_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/CMakeFiles/flann_main.dir

@@ -28,184 +28,27 @@
     <list default="true" id="e271a0f9-e97d-4cc8-979c-fe1797f2457e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/bin/demo_redirection" afterPath="$PROJECT_DIR$/bin/demo_redirection" />
-      <change beforePath="$PROJECT_DIR$/bin/demo_signal_01" afterPath="$PROJECT_DIR$/bin/demo_signal_01" />
-      <change beforePath="$PROJECT_DIR$/bin/demo_signal_02" afterPath="$PROJECT_DIR$/bin/demo_signal_02" />
-      <change beforePath="$PROJECT_DIR$/bin/demo_waitpid" afterPath="$PROJECT_DIR$/bin/demo_waitpid" />
-      <change beforePath="$PROJECT_DIR$/bin/flann_c_demo" afterPath="$PROJECT_DIR$/bin/flann_c_demo" />
-      <change beforePath="$PROJECT_DIR$/bin/flann_cpp_demo" afterPath="$PROJECT_DIR$/bin/flann_cpp_demo" />
-      <change beforePath="$PROJECT_DIR$/bin/main" afterPath="$PROJECT_DIR$/bin/main" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/13" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/14" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/15" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/16" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/17" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/19" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/count.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/build.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/flags.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/link.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/progress.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" afterPath="$PROJECT_DIR$/build/Makefile" />
-      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/link.txt" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/link.txt" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/link.txt" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/link.txt" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/C.includecache" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/C.includecache" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/link.txt" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_c_demo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/link.txt" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/Makefile" afterPath="$PROJECT_DIR$/build/learning_flann/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_NUMA_kNN.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/My_NUMA_kNN.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_redirection.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_redirection.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_redirection.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_redirection.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_redirection.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_redirection.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_redirection.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_redirection.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_c_demo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_c_demo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_c_demo.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_c_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_c_demo.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_c_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_c_demo.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_c_demo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_cpp_demo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_cpp_demo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_cpp_demo.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_cpp_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_cpp_demo.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_cpp_demo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_related/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_related/Makefile" />
-      <change beforePath="$PROJECT_DIR$/learning_Unix_programming/CMakeLists.txt" afterPath="$PROJECT_DIR$/learning_Unix_programming/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/CMakeLists.txt" afterPath="$PROJECT_DIR$/learning_flann/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/bin/flann_c_demo" afterPath="$PROJECT_DIR$/learning_flann/bin/flann_c_demo" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/bin/flann_cpp_demo" afterPath="$PROJECT_DIR$/learning_flann/bin/flann_cpp_demo" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/Progress/6" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/Progress/count.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/C.includecache" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/C.includecache" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/build.make" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/depend.internal" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/depend.make" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/flags.make" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/link.txt" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_c_demo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/CXX.includecache" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/build.make" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/depend.internal" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/depend.make" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/flags.make" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/link.txt" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/Makefile" afterPath="$PROJECT_DIR$/learning_flann/build/Makefile" />
-      <change beforePath="$PROJECT_DIR$/learning_pmc/CMakeLists.txt" afterPath="$PROJECT_DIR$/learning_pmc/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/CMakeLists.txt" afterPath="$PROJECT_DIR$/opencv_related/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/bin/opencv_smoothing_image_demo" afterPath="$PROJECT_DIR$/opencv_related/bin/opencv_smoothing_image_demo" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/Progress/2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/Progress/count.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/CXX.includecache" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/build.make" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/depend.internal" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/depend.make" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/flags.make" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/link.txt" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.o" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/progress.make" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/CXX.includecache" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/build.make" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/depend.internal" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/depend.make" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/flags.make" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/link.txt" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.o" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/opencv_smoothing_image_demo.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/progress.make" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/opencv_smoothing_image_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/opencv_related/build/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/opencv_related/build/Makefile" afterPath="$PROJECT_DIR$/opencv_related/build/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/common.h" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/common.h" />
+      <change beforePath="$PROJECT_DIR$/csv_parser.cpp" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/csv_parser.cpp" />
+      <change beforePath="$PROJECT_DIR$/csv_parser.h" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/csv_parser.h" />
+      <change beforePath="$PROJECT_DIR$/flann_kdtree_index.h" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kdtree_index.h" />
+      <change beforePath="$PROJECT_DIR$/flann_kmeans_index.h" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kmeans_index.h" />
+      <change beforePath="$PROJECT_DIR$/flann_linear_index.h" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/flann_linear_index.h" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/main.cpp" />
+      <change beforePath="$PROJECT_DIR$/main.h" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/main.h" />
+      <change beforePath="$PROJECT_DIR$/rbc_index.cpp" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/rbc_index.cpp" />
+      <change beforePath="$PROJECT_DIR$/rbc_index.h" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/rbc_index.h" />
+      <change beforePath="$PROJECT_DIR$/sdc_index.cpp" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_index.cpp" />
+      <change beforePath="$PROJECT_DIR$/sdc_index.h" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_index.h" />
+      <change beforePath="$PROJECT_DIR$/sdc_kmeans.h" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_kmeans.h" />
+      <change beforePath="$PROJECT_DIR$/test.sh" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/test.sh" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -234,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning_Unix_programming/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
@@ -244,11 +87,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            <state relative-caret-position="198">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -362,9 +215,10 @@
         <option value="$PROJECT_DIR$/opencv_related/opencv_blur_image_demo.cpp" />
         <option value="$PROJECT_DIR$/opencv_related/opencv_feature_detection_demo.cpp" />
         <option value="$PROJECT_DIR$/opencv_related/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/learning_flann/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/learning_Unix_programming/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/tang_xiaoxin_source_code/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -407,7 +261,12 @@
             <path>
               <item name="My_NUMA_kNN" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="source_code_mac_osx" type="462c0819:PsiDirectoryNode" />
-              <item name="learning_Unix_programming" type="462c0819:PsiDirectoryNode" />
+              <item name="opencv_related" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_NUMA_kNN" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="source_code_mac_osx" type="462c0819:PsiDirectoryNode" />
+              <item name="tang_xiaoxin_source_code" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -421,15 +280,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/opencv_related/data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tang_xiaoxin_source_code" />
       <recent name="$PROJECT_DIR$/opencv_related/data" />
       <recent name="$PROJECT_DIR$/flann_in_opencv" />
       <recent name="$PROJECT_DIR$/learning_flann" />
       <recent name="$PROJECT_DIR$/learning_Unix_programming" />
-      <recent name="$PROJECT_DIR$/learning_pmc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tang_xiaoxin_source_code" />
+      <recent name="$PROJECT_DIR$/opencv_related/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -522,12 +382,12 @@
       <workItem from="1518312519177" duration="405000" />
       <workItem from="1518393737536" duration="1189000" />
       <workItem from="1518397565718" duration="410000" />
-      <workItem from="1518406753078" duration="5694000" />
+      <workItem from="1518406753078" duration="6077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76035000" />
+    <option name="totallyTimeSpent" value="76418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="0" />
@@ -596,28 +456,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/csv_parser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdc_index.cpp">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_index.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4368">
           <caret line="273" column="22" lean-forward="false" selection-start-line="273" selection-start-column="22" selection-end-line="273" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.sh">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flann_kmeans_index.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kmeans_index.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -631,105 +484,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/main.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdc_index.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_index.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flann_linear_index.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_linear_index.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flann_kmeans_index.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kmeans_index.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flann_kdtree_index.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kdtree_index.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7376">
           <caret line="461" column="29" lean-forward="false" selection-start-line="461" selection-start-column="20" selection-end-line="461" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/common.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv_parser.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/csv_parser.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdc_index.cpp">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_index.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4368">
           <caret line="273" column="22" lean-forward="false" selection-start-line="273" selection-start-column="22" selection-end-line="273" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.sh">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flann_linear_index.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_linear_index.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv_parser.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/csv_parser.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3121">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/common.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flann_kdtree_index.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kdtree_index.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1369">
           <caret line="461" column="29" lean-forward="false" selection-start-line="461" selection-start-column="20" selection-end-line="461" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rbc_index.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/rbc_index.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdc_index.cpp">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_index.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="273" column="22" lean-forward="false" selection-start-line="273" selection-start-column="22" selection-end-line="273" selection-end-column="22" />
@@ -743,7 +596,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flann_kmeans_index.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kmeans_index.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="1064" column="36" lean-forward="false" selection-start-line="1064" selection-start-column="36" selection-end-line="1064" selection-end-column="36" />
@@ -827,7 +680,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdc_index.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_index.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
@@ -841,21 +694,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="932">
           <caret line="84" column="17" lean-forward="false" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.h">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/main.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.sh">
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="10" />
@@ -930,14 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learning_flann/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -950,6 +795,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding />
         </state>
       </provider>

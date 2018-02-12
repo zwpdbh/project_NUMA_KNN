@@ -1,0 +1,3 @@
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/build/CMakeFiles/rebuild_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/build/CMakeFiles/edit_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/build/CMakeFiles/flann_main.dir
