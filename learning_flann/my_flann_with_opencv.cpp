@@ -19,13 +19,13 @@ using namespace cv;
 int main(int argc, char* argv[]) {
 
     // step 1, get the features from pictures
-    string img01 = "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/data/box.png";
-    string img02 = "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/data/box_in_scene.png";
+    string img01 = "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/data/box.png";
+    string img02 = "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/data/box_in_scene.png";
 
     Mat box_img = imread(img01, IMREAD_GRAYSCALE);
 
     Ptr<xfeatures2d::SIFT> featureDetector = xfeatures2d::SIFT::create(
-        10,
+        1000,
         3,
         0.04,
         10,
@@ -34,12 +34,15 @@ int main(int argc, char* argv[]) {
 
     vector<KeyPoint> keypoints;
     Mat descriptors;
-    featureDetector->detectAndCompute(box_img, 0, keypoints, descriptors);
+    Mat mask = Mat::zeros(box_img.size(), CV_8UC1);
+    featureDetector->detectAndCompute(box_img, mask, keypoints, descriptors);
 
     Mat result_img;
     drawKeypoints(box_img, keypoints, result_img, Scalar::all(0), DrawMatchesFlags::DEFAULT);
 
     imshow("SIFT result", result_img);
+    waitKey(0);
+
 
     return 0;
 }
