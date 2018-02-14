@@ -65,6 +65,7 @@ public:
 	}
 
 	void buildIndex() {
+
 		Matrix<float> mat(data, rows, cols);
 		switch (ALG) {
 		case 0:

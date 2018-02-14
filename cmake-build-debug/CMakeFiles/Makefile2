@@ -63,13 +63,13 @@ CMAKE_BINARY_DIR = /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmak
 # Directory level rules for directory learning_flann
 
 # Convenience name for "all" pass in the directory.
-learning_flann/all: learning_flann/CMakeFiles/flann_c_demo.dir/all
+learning_flann/all: learning_flann/CMakeFiles/my_flann_with_opencv.dir/all
 learning_flann/all: learning_flann/CMakeFiles/flann_cpp_demo.dir/all
 
 .PHONY : learning_flann/all
 
 # Convenience name for "clean" pass in the directory.
-learning_flann/clean: learning_flann/CMakeFiles/flann_c_demo.dir/clean
+learning_flann/clean: learning_flann/CMakeFiles/my_flann_with_opencv.dir/clean
 learning_flann/clean: learning_flann/CMakeFiles/flann_cpp_demo.dir/clean
 
 .PHONY : learning_flann/clean
@@ -80,39 +80,39 @@ learning_flann/preinstall:
 .PHONY : learning_flann/preinstall
 
 #=============================================================================
-# Target rules for target learning_flann/CMakeFiles/flann_c_demo.dir
+# Target rules for target learning_flann/CMakeFiles/my_flann_with_opencv.dir
 
 # All Build rule for target.
-learning_flann/CMakeFiles/flann_c_demo.dir/all:
-	$(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/depend
-	$(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target flann_c_demo"
-.PHONY : learning_flann/CMakeFiles/flann_c_demo.dir/all
+learning_flann/CMakeFiles/my_flann_with_opencv.dir/all:
+	$(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/depend
+	$(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target my_flann_with_opencv"
+.PHONY : learning_flann/CMakeFiles/my_flann_with_opencv.dir/all
 
 # Include target in all.
-all: learning_flann/CMakeFiles/flann_c_demo.dir/all
+all: learning_flann/CMakeFiles/my_flann_with_opencv.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-learning_flann/CMakeFiles/flann_c_demo.dir/rule: cmake_check_build_system
+learning_flann/CMakeFiles/my_flann_with_opencv.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/flann_c_demo.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/my_flann_with_opencv.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 0
-.PHONY : learning_flann/CMakeFiles/flann_c_demo.dir/rule
+.PHONY : learning_flann/CMakeFiles/my_flann_with_opencv.dir/rule
 
 # Convenience name for target.
-flann_c_demo: learning_flann/CMakeFiles/flann_c_demo.dir/rule
+my_flann_with_opencv: learning_flann/CMakeFiles/my_flann_with_opencv.dir/rule
 
-.PHONY : flann_c_demo
-
-# clean rule for target.
-learning_flann/CMakeFiles/flann_c_demo.dir/clean:
-	$(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/clean
-.PHONY : learning_flann/CMakeFiles/flann_c_demo.dir/clean
+.PHONY : my_flann_with_opencv
 
 # clean rule for target.
-clean: learning_flann/CMakeFiles/flann_c_demo.dir/clean
+learning_flann/CMakeFiles/my_flann_with_opencv.dir/clean:
+	$(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/clean
+.PHONY : learning_flann/CMakeFiles/my_flann_with_opencv.dir/clean
+
+# clean rule for target.
+clean: learning_flann/CMakeFiles/my_flann_with_opencv.dir/clean
 
 .PHONY : clean
 
@@ -123,7 +123,7 @@ clean: learning_flann/CMakeFiles/flann_c_demo.dir/clean
 learning_flann/CMakeFiles/flann_cpp_demo.dir/all:
 	$(MAKE) -f learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make learning_flann/CMakeFiles/flann_cpp_demo.dir/depend
 	$(MAKE) -f learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make learning_flann/CMakeFiles/flann_cpp_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target flann_cpp_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target flann_cpp_demo"
 .PHONY : learning_flann/CMakeFiles/flann_cpp_demo.dir/all
 
 # Include target in all.
@@ -326,229 +326,229 @@ clean: learning_Unix_programming/CMakeFiles/demo_signal_01.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory opencv_related
+# Directory level rules for directory learning_opencv
 
 # Convenience name for "all" pass in the directory.
-opencv_related/all: opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/all
-opencv_related/all: opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/all
-opencv_related/all: opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/all
-opencv_related/all: opencv_related/CMakeFiles/opencv_blur_image_demo.dir/all
+learning_opencv/all: learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/all
+learning_opencv/all: learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/all
+learning_opencv/all: learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/all
+learning_opencv/all: learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/all
 
-.PHONY : opencv_related/all
+.PHONY : learning_opencv/all
 
 # Convenience name for "clean" pass in the directory.
-opencv_related/clean: opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/clean
-opencv_related/clean: opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/clean
-opencv_related/clean: opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/clean
-opencv_related/clean: opencv_related/CMakeFiles/opencv_blur_image_demo.dir/clean
+learning_opencv/clean: learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/clean
+learning_opencv/clean: learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/clean
+learning_opencv/clean: learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/clean
+learning_opencv/clean: learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/clean
 
-.PHONY : opencv_related/clean
+.PHONY : learning_opencv/clean
 
 # Convenience name for "preinstall" pass in the directory.
-opencv_related/preinstall:
+learning_opencv/preinstall:
 
-.PHONY : opencv_related/preinstall
+.PHONY : learning_opencv/preinstall
 
 #=============================================================================
-# Target rules for target opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir
+# Target rules for target learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir
 
 # All Build rule for target.
-opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/all:
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/depend
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target opencv_smoothing_image_demo"
-.PHONY : opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/all
+learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/all:
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/depend
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target opencv_smoothing_image_demo"
+.PHONY : learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/all
 
 # Include target in all.
-all: opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/all
+all: learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/rule: cmake_check_build_system
+learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 0
-.PHONY : opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/rule
+.PHONY : learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/rule
 
 # Convenience name for target.
-opencv_smoothing_image_demo: opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/rule
+opencv_smoothing_image_demo: learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/rule
 
 .PHONY : opencv_smoothing_image_demo
 
 # clean rule for target.
-opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/clean:
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/clean
-.PHONY : opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/clean
+learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/clean:
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/clean
+.PHONY : learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/clean
 
 # clean rule for target.
-clean: opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/clean
+clean: learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir
+# Target rules for target learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir
 
 # All Build rule for target.
-opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/all:
-	$(MAKE) -f opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/depend
-	$(MAKE) -f opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target flann_with_opencv_demo.cpp"
-.PHONY : opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/all
+learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/all:
+	$(MAKE) -f learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/depend
+	$(MAKE) -f learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target flann_with_opencv_demo.cpp"
+.PHONY : learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/all
 
 # Include target in all.
-all: opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/all
+all: learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/rule: cmake_check_build_system
+learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 0
-.PHONY : opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/rule
+.PHONY : learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/rule
 
 # Convenience name for target.
-flann_with_opencv_demo.cpp: opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/rule
+flann_with_opencv_demo.cpp: learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/rule
 
 .PHONY : flann_with_opencv_demo.cpp
 
 # clean rule for target.
-opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/clean:
-	$(MAKE) -f opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/clean
-.PHONY : opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/clean
+learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/clean:
+	$(MAKE) -f learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/clean
+.PHONY : learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/clean
 
 # clean rule for target.
-clean: opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/clean
+clean: learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target opencv_related/CMakeFiles/opencv_feature_detection_demo.dir
+# Target rules for target learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir
 
 # All Build rule for target.
-opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/all:
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/build.make opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/depend
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/build.make opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target opencv_feature_detection_demo"
-.PHONY : opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/all
+learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/all:
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/build.make learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/depend
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/build.make learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target opencv_feature_detection_demo"
+.PHONY : learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/all
 
 # Include target in all.
-all: opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/all
+all: learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/rule: cmake_check_build_system
+learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 0
-.PHONY : opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/rule
+.PHONY : learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/rule
 
 # Convenience name for target.
-opencv_feature_detection_demo: opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/rule
+opencv_feature_detection_demo: learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/rule
 
 .PHONY : opencv_feature_detection_demo
 
 # clean rule for target.
-opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/clean:
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/build.make opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/clean
-.PHONY : opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/clean
+learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/clean:
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/build.make learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/clean
+.PHONY : learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/clean
 
 # clean rule for target.
-clean: opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/clean
+clean: learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target opencv_related/CMakeFiles/opencv_blur_image_demo.dir
+# Target rules for target learning_opencv/CMakeFiles/opencv_blur_image_demo.dir
 
 # All Build rule for target.
-opencv_related/CMakeFiles/opencv_blur_image_demo.dir/all:
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_blur_image_demo.dir/depend
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target opencv_blur_image_demo"
-.PHONY : opencv_related/CMakeFiles/opencv_blur_image_demo.dir/all
+learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/all:
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/depend
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target opencv_blur_image_demo"
+.PHONY : learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/all
 
 # Include target in all.
-all: opencv_related/CMakeFiles/opencv_blur_image_demo.dir/all
+all: learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-opencv_related/CMakeFiles/opencv_blur_image_demo.dir/rule: cmake_check_build_system
+learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 opencv_related/CMakeFiles/opencv_blur_image_demo.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 0
-.PHONY : opencv_related/CMakeFiles/opencv_blur_image_demo.dir/rule
+.PHONY : learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/rule
 
 # Convenience name for target.
-opencv_blur_image_demo: opencv_related/CMakeFiles/opencv_blur_image_demo.dir/rule
+opencv_blur_image_demo: learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/rule
 
 .PHONY : opencv_blur_image_demo
 
 # clean rule for target.
-opencv_related/CMakeFiles/opencv_blur_image_demo.dir/clean:
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_blur_image_demo.dir/clean
-.PHONY : opencv_related/CMakeFiles/opencv_blur_image_demo.dir/clean
+learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/clean:
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/clean
+.PHONY : learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/clean
 
 # clean rule for target.
-clean: opencv_related/CMakeFiles/opencv_blur_image_demo.dir/clean
+clean: learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory tang_xiaoxin_source_code
+# Directory level rules for directory learning_openmp
 
 # Convenience name for "all" pass in the directory.
-tang_xiaoxin_source_code/all: tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/all
+learning_openmp/all: learning_openmp/CMakeFiles/openmp_demo_01.dir/all
 
-.PHONY : tang_xiaoxin_source_code/all
+.PHONY : learning_openmp/all
 
 # Convenience name for "clean" pass in the directory.
-tang_xiaoxin_source_code/clean: tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/clean
+learning_openmp/clean: learning_openmp/CMakeFiles/openmp_demo_01.dir/clean
 
-.PHONY : tang_xiaoxin_source_code/clean
+.PHONY : learning_openmp/clean
 
 # Convenience name for "preinstall" pass in the directory.
-tang_xiaoxin_source_code/preinstall:
+learning_openmp/preinstall:
 
-.PHONY : tang_xiaoxin_source_code/preinstall
+.PHONY : learning_openmp/preinstall
 
 #=============================================================================
-# Target rules for target tang_xiaoxin_source_code/CMakeFiles/flann_main.dir
+# Target rules for target learning_openmp/CMakeFiles/openmp_demo_01.dir
 
 # All Build rule for target.
-tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/all:
-	$(MAKE) -f tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/build.make tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/depend
-	$(MAKE) -f tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/build.make tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=13,14,15,16,17 "Built target flann_main"
-.PHONY : tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/all
+learning_openmp/CMakeFiles/openmp_demo_01.dir/all:
+	$(MAKE) -f learning_openmp/CMakeFiles/openmp_demo_01.dir/build.make learning_openmp/CMakeFiles/openmp_demo_01.dir/depend
+	$(MAKE) -f learning_openmp/CMakeFiles/openmp_demo_01.dir/build.make learning_openmp/CMakeFiles/openmp_demo_01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target openmp_demo_01"
+.PHONY : learning_openmp/CMakeFiles/openmp_demo_01.dir/all
 
 # Include target in all.
-all: tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/all
+all: learning_openmp/CMakeFiles/openmp_demo_01.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/all
+learning_openmp/CMakeFiles/openmp_demo_01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 learning_openmp/CMakeFiles/openmp_demo_01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 0
-.PHONY : tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/rule
+.PHONY : learning_openmp/CMakeFiles/openmp_demo_01.dir/rule
 
 # Convenience name for target.
-flann_main: tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/rule
+openmp_demo_01: learning_openmp/CMakeFiles/openmp_demo_01.dir/rule
 
-.PHONY : flann_main
-
-# clean rule for target.
-tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/clean:
-	$(MAKE) -f tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/build.make tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/clean
-.PHONY : tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/clean
+.PHONY : openmp_demo_01
 
 # clean rule for target.
-clean: tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/clean
+learning_openmp/CMakeFiles/openmp_demo_01.dir/clean:
+	$(MAKE) -f learning_openmp/CMakeFiles/openmp_demo_01.dir/build.make learning_openmp/CMakeFiles/openmp_demo_01.dir/clean
+.PHONY : learning_openmp/CMakeFiles/openmp_demo_01.dir/clean
+
+# clean rule for target.
+clean: learning_openmp/CMakeFiles/openmp_demo_01.dir/clean
 
 .PHONY : clean
 

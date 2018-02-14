@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_c_01.c" "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

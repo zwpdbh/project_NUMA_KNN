@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/openmp_demo_01.dir/openmp_demo_01.cpp.o  -o ../../bin/openmp_demo_01 -lomp 

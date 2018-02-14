@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/opencv_blur_image_demo.dir/opencv_blur_image_demo.cpp.o  -o ../bin/opencv_blur_image_demo -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_features2d -lopencv_imgproc -lopencv_xfeatures2d -lopencv_flann 

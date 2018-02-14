@@ -12,7 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include"
   "/usr/local/Cellar/glib/2.54.3/include/glib-2.0"
-  "/usr/local/Cellar/glib/2.52.0/lib/glib-2.0/include"
+  "/usr/local/Cellar/glib/2.54.3/lib/glib-2.0/include"
   )
 
 # Targets to which this target links.

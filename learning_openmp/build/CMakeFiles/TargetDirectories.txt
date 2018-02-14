@@ -1,0 +1,3 @@
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_openmp/build/CMakeFiles/rebuild_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_openmp/build/CMakeFiles/edit_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_openmp/build/CMakeFiles/openmp_demo_01.dir

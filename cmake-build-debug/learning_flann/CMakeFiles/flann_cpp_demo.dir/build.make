@@ -60,15 +60,15 @@ include learning_flann/CMakeFiles/flann_cpp_demo.dir/flags.make
 learning_flann/CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o: learning_flann/CMakeFiles/flann_cpp_demo.dir/flags.make
 learning_flann/CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o: ../learning_flann/flann_demo_01.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object learning_flann/CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o"
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann && /usr/local/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann && /usr/local/opt/llvm/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp
 
 learning_flann/CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.i"
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann && /usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp > CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.i
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp > CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.i
 
 learning_flann/CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s"
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann && /usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp -o CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp -o CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s
 
 learning_flann/CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.o.requires:
 

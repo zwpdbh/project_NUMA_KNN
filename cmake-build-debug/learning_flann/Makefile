@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-learning_flann/CMakeFiles/flann_c_demo.dir/rule:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/flann_c_demo.dir/rule
-.PHONY : learning_flann/CMakeFiles/flann_c_demo.dir/rule
+learning_flann/CMakeFiles/my_flann_with_opencv.dir/rule:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/my_flann_with_opencv.dir/rule
+.PHONY : learning_flann/CMakeFiles/my_flann_with_opencv.dir/rule
 
 # Convenience name for target.
-flann_c_demo: learning_flann/CMakeFiles/flann_c_demo.dir/rule
+my_flann_with_opencv: learning_flann/CMakeFiles/my_flann_with_opencv.dir/rule
 
-.PHONY : flann_c_demo
+.PHONY : my_flann_with_opencv
 
 # fast build rule for target.
-flann_c_demo/fast:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/build
-.PHONY : flann_c_demo/fast
+my_flann_with_opencv/fast:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/build
+.PHONY : my_flann_with_opencv/fast
 
 # Convenience name for target.
 learning_flann/CMakeFiles/flann_cpp_demo.dir/rule:
@@ -167,32 +167,32 @@ flann_demo_01.cpp.s:
 	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make learning_flann/CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s
 .PHONY : flann_demo_01.cpp.s
 
-flann_demo_c_01.o: flann_demo_c_01.c.o
+my_flann_with_opencv.o: my_flann_with_opencv.cpp.o
 
-.PHONY : flann_demo_c_01.o
+.PHONY : my_flann_with_opencv.o
 
 # target to build an object file
-flann_demo_c_01.c.o:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.o
-.PHONY : flann_demo_c_01.c.o
+my_flann_with_opencv.cpp.o:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/my_flann_with_opencv.cpp.o
+.PHONY : my_flann_with_opencv.cpp.o
 
-flann_demo_c_01.i: flann_demo_c_01.c.i
+my_flann_with_opencv.i: my_flann_with_opencv.cpp.i
 
-.PHONY : flann_demo_c_01.i
+.PHONY : my_flann_with_opencv.i
 
 # target to preprocess a source file
-flann_demo_c_01.c.i:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.i
-.PHONY : flann_demo_c_01.c.i
+my_flann_with_opencv.cpp.i:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/my_flann_with_opencv.cpp.i
+.PHONY : my_flann_with_opencv.cpp.i
 
-flann_demo_c_01.s: flann_demo_c_01.c.s
+my_flann_with_opencv.s: my_flann_with_opencv.cpp.s
 
-.PHONY : flann_demo_c_01.s
+.PHONY : my_flann_with_opencv.s
 
 # target to generate assembly for a file
-flann_demo_c_01.c.s:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.s
-.PHONY : flann_demo_c_01.c.s
+my_flann_with_opencv.cpp.s:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/my_flann_with_opencv.cpp.s
+.PHONY : my_flann_with_opencv.cpp.s
 
 # Help Target
 help:
@@ -202,14 +202,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... flann_c_demo"
+	@echo "... my_flann_with_opencv"
 	@echo "... flann_cpp_demo"
 	@echo "... flann_demo_01.o"
 	@echo "... flann_demo_01.i"
 	@echo "... flann_demo_01.s"
-	@echo "... flann_demo_c_01.o"
-	@echo "... flann_demo_c_01.i"
-	@echo "... flann_demo_c_01.s"
+	@echo "... my_flann_with_opencv.o"
+	@echo "... my_flann_with_opencv.i"
+	@echo "... my_flann_with_opencv.s"
 .PHONY : help
 
 

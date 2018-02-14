@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named flann_main
+# Target rules for targets named my_flann_with_opencv
 
 # Build rule for target.
-flann_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 flann_main
-.PHONY : flann_main
+my_flann_with_opencv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_flann_with_opencv
+.PHONY : my_flann_with_opencv
 
 # fast build rule for target.
-flann_main/fast:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/build
-.PHONY : flann_main/fast
+my_flann_with_opencv/fast:
+	$(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/build
+.PHONY : my_flann_with_opencv/fast
 
 #=============================================================================
 # Target rules for targets named flann_c_demo
@@ -253,114 +253,6 @@ opencv_blur_image_demo/fast:
 	$(MAKE) -f opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build
 .PHONY : opencv_blur_image_demo/fast
 
-csv_parser.o: csv_parser.cpp.o
-
-.PHONY : csv_parser.o
-
-# target to build an object file
-csv_parser.cpp.o:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/csv_parser.cpp.o
-.PHONY : csv_parser.cpp.o
-
-csv_parser.i: csv_parser.cpp.i
-
-.PHONY : csv_parser.i
-
-# target to preprocess a source file
-csv_parser.cpp.i:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/csv_parser.cpp.i
-.PHONY : csv_parser.cpp.i
-
-csv_parser.s: csv_parser.cpp.s
-
-.PHONY : csv_parser.s
-
-# target to generate assembly for a file
-csv_parser.cpp.s:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/csv_parser.cpp.s
-.PHONY : csv_parser.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-rbc_index.o: rbc_index.cpp.o
-
-.PHONY : rbc_index.o
-
-# target to build an object file
-rbc_index.cpp.o:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/rbc_index.cpp.o
-.PHONY : rbc_index.cpp.o
-
-rbc_index.i: rbc_index.cpp.i
-
-.PHONY : rbc_index.i
-
-# target to preprocess a source file
-rbc_index.cpp.i:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/rbc_index.cpp.i
-.PHONY : rbc_index.cpp.i
-
-rbc_index.s: rbc_index.cpp.s
-
-.PHONY : rbc_index.s
-
-# target to generate assembly for a file
-rbc_index.cpp.s:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/rbc_index.cpp.s
-.PHONY : rbc_index.cpp.s
-
-sdc_index.o: sdc_index.cpp.o
-
-.PHONY : sdc_index.o
-
-# target to build an object file
-sdc_index.cpp.o:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/sdc_index.cpp.o
-.PHONY : sdc_index.cpp.o
-
-sdc_index.i: sdc_index.cpp.i
-
-.PHONY : sdc_index.i
-
-# target to preprocess a source file
-sdc_index.cpp.i:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/sdc_index.cpp.i
-.PHONY : sdc_index.cpp.i
-
-sdc_index.s: sdc_index.cpp.s
-
-.PHONY : sdc_index.s
-
-# target to generate assembly for a file
-sdc_index.cpp.s:
-	$(MAKE) -f CMakeFiles/flann_main.dir/build.make CMakeFiles/flann_main.dir/sdc_index.cpp.s
-.PHONY : sdc_index.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -369,7 +261,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... flann_main"
+	@echo "... my_flann_with_opencv"
 	@echo "... flann_c_demo"
 	@echo "... flann_cpp_demo"
 	@echo "... demo_redirection"
@@ -380,18 +272,6 @@ help:
 	@echo "... flann_with_opencv_demo.cpp"
 	@echo "... opencv_feature_detection_demo"
 	@echo "... opencv_blur_image_demo"
-	@echo "... csv_parser.o"
-	@echo "... csv_parser.i"
-	@echo "... csv_parser.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... rbc_index.o"
-	@echo "... rbc_index.i"
-	@echo "... rbc_index.s"
-	@echo "... sdc_index.o"
-	@echo "... sdc_index.i"
-	@echo "... sdc_index.s"
 .PHONY : help
 
 
