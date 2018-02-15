@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.o  -o ../../bin/flann_with_opencv_demo.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_features2d -lopencv_imgproc -lopencv_xfeatures2d -lopencv_flann 
