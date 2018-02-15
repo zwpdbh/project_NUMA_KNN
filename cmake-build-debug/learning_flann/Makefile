@@ -111,19 +111,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-learning_flann/CMakeFiles/my_flann_with_opencv.dir/rule:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/my_flann_with_opencv.dir/rule
-.PHONY : learning_flann/CMakeFiles/my_flann_with_opencv.dir/rule
+learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/rule:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/rule
+.PHONY : learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/rule
 
 # Convenience name for target.
-my_flann_with_opencv: learning_flann/CMakeFiles/my_flann_with_opencv.dir/rule
+opencv_SIFT_with_flann: learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/rule
 
-.PHONY : my_flann_with_opencv
+.PHONY : opencv_SIFT_with_flann
 
 # fast build rule for target.
-my_flann_with_opencv/fast:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/build
-.PHONY : my_flann_with_opencv/fast
+opencv_SIFT_with_flann/fast:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/build
+.PHONY : opencv_SIFT_with_flann/fast
+
+# Convenience name for target.
+learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/rule:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/rule
+.PHONY : learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/rule
+
+# Convenience name for target.
+opencv_SURF_with_flann: learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/rule
+
+.PHONY : opencv_SURF_with_flann
+
+# fast build rule for target.
+opencv_SURF_with_flann/fast:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/build
+.PHONY : opencv_SURF_with_flann/fast
 
 # Convenience name for target.
 learning_flann/CMakeFiles/flann_cpp_demo.dir/rule:
@@ -167,32 +182,59 @@ flann_demo_01.cpp.s:
 	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make learning_flann/CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s
 .PHONY : flann_demo_01.cpp.s
 
-my_flann_with_opencv.o: my_flann_with_opencv.cpp.o
+opencv_SIFT_with_flann.o: opencv_SIFT_with_flann.cpp.o
 
-.PHONY : my_flann_with_opencv.o
+.PHONY : opencv_SIFT_with_flann.o
 
 # target to build an object file
-my_flann_with_opencv.cpp.o:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/my_flann_with_opencv.cpp.o
-.PHONY : my_flann_with_opencv.cpp.o
+opencv_SIFT_with_flann.cpp.o:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.o
+.PHONY : opencv_SIFT_with_flann.cpp.o
 
-my_flann_with_opencv.i: my_flann_with_opencv.cpp.i
+opencv_SIFT_with_flann.i: opencv_SIFT_with_flann.cpp.i
 
-.PHONY : my_flann_with_opencv.i
+.PHONY : opencv_SIFT_with_flann.i
 
 # target to preprocess a source file
-my_flann_with_opencv.cpp.i:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/my_flann_with_opencv.cpp.i
-.PHONY : my_flann_with_opencv.cpp.i
+opencv_SIFT_with_flann.cpp.i:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.i
+.PHONY : opencv_SIFT_with_flann.cpp.i
 
-my_flann_with_opencv.s: my_flann_with_opencv.cpp.s
+opencv_SIFT_with_flann.s: opencv_SIFT_with_flann.cpp.s
 
-.PHONY : my_flann_with_opencv.s
+.PHONY : opencv_SIFT_with_flann.s
 
 # target to generate assembly for a file
-my_flann_with_opencv.cpp.s:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/my_flann_with_opencv.cpp.s
-.PHONY : my_flann_with_opencv.cpp.s
+opencv_SIFT_with_flann.cpp.s:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.s
+.PHONY : opencv_SIFT_with_flann.cpp.s
+
+opencv_SURF_with_flann.o: opencv_SURF_with_flann.cpp.o
+
+.PHONY : opencv_SURF_with_flann.o
+
+# target to build an object file
+opencv_SURF_with_flann.cpp.o:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/opencv_SURF_with_flann.cpp.o
+.PHONY : opencv_SURF_with_flann.cpp.o
+
+opencv_SURF_with_flann.i: opencv_SURF_with_flann.cpp.i
+
+.PHONY : opencv_SURF_with_flann.i
+
+# target to preprocess a source file
+opencv_SURF_with_flann.cpp.i:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/opencv_SURF_with_flann.cpp.i
+.PHONY : opencv_SURF_with_flann.cpp.i
+
+opencv_SURF_with_flann.s: opencv_SURF_with_flann.cpp.s
+
+.PHONY : opencv_SURF_with_flann.s
+
+# target to generate assembly for a file
+opencv_SURF_with_flann.cpp.s:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/opencv_SURF_with_flann.cpp.s
+.PHONY : opencv_SURF_with_flann.cpp.s
 
 # Help Target
 help:
@@ -202,14 +244,18 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... my_flann_with_opencv"
+	@echo "... opencv_SIFT_with_flann"
+	@echo "... opencv_SURF_with_flann"
 	@echo "... flann_cpp_demo"
 	@echo "... flann_demo_01.o"
 	@echo "... flann_demo_01.i"
 	@echo "... flann_demo_01.s"
-	@echo "... my_flann_with_opencv.o"
-	@echo "... my_flann_with_opencv.i"
-	@echo "... my_flann_with_opencv.s"
+	@echo "... opencv_SIFT_with_flann.o"
+	@echo "... opencv_SIFT_with_flann.i"
+	@echo "... opencv_SIFT_with_flann.s"
+	@echo "... opencv_SURF_with_flann.o"
+	@echo "... opencv_SURF_with_flann.i"
+	@echo "... opencv_SURF_with_flann.s"
 .PHONY : help
 
 

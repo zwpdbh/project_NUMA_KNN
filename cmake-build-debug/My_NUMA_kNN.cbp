@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="my_flann_with_opencv">
-				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/my_flann_with_opencv" prefix_auto="0" extension_auto="0"/>
+			<Target title="opencv_SIFT_with_flann">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/opencv_SIFT_with_flann" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -58,14 +58,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 my_flann_with_opencv"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 opencv_SIFT_with_flann"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="my_flann_with_opencv/fast">
-				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/my_flann_with_opencv" prefix_auto="0" extension_auto="0"/>
+			<Target title="opencv_SIFT_with_flann/fast">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/opencv_SIFT_with_flann" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -85,7 +85,61 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 my_flann_with_opencv/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 opencv_SIFT_with_flann/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_SURF_with_flann">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/opencv_SURF_with_flann" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.54.3/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 opencv_SURF_with_flann"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_SURF_with_flann/fast">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/opencv_SURF_with_flann" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.54.3/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.54.3/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 opencv_SURF_with_flann/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/Makefile&quot;  VERBOSE=1 clean"/>
@@ -611,8 +665,11 @@
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/flann_demo_01.cpp">
 			<Option target="flann_cpp_demo"/>
 		</Unit>
-		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/my_flann_with_opencv.cpp">
-			<Option target="my_flann_with_opencv"/>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/opencv_SIFT_with_flann.cpp">
+			<Option target="opencv_SIFT_with_flann"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/opencv_SURF_with_flann.cpp">
+			<Option target="opencv_SURF_with_flann"/>
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/flann_with_opencv_demo.cpp">
 			<Option target="flann_with_opencv_demo.cpp"/>

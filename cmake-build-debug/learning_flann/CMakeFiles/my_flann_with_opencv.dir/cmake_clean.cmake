@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/my_flann_with_opencv.dir/my_flann_with_opencv.cpp.o"
+  "CMakeFiles/my_flann_with_opencv.dir/opencv_SIFT_with_flann.cpp.o"
   "../../bin/my_flann_with_opencv.pdb"
   "../../bin/my_flann_with_opencv"
 )

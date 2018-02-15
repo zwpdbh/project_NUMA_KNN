@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/flann_with_opencv_demo.cpp" "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/build/CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.o"
+  "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/flann_with_opencv_demo.cpp" "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/build/CMakeFiles/flann_with_opencv_demo.cpp.dir/flann_with_opencv_demo.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

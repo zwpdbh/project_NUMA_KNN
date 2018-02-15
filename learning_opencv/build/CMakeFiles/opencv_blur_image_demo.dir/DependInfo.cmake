@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_blur_image_demo.cpp" "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/build/CMakeFiles/opencv_blur_image_demo.dir/opencv_blur_image_demo.cpp.o"
+  "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/opencv_blur_image_demo.cpp" "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/build/CMakeFiles/opencv_blur_image_demo.dir/opencv_blur_image_demo.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

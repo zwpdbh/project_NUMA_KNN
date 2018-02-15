@@ -3,7 +3,6 @@
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/rebuild_cache.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/edit_cache.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/my_flann_with_opencv.dir
-/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/flann_c_demo.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_flann/CMakeFiles/flann_cpp_demo.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/CMakeFiles/rebuild_cache.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/CMakeFiles/edit_cache.dir
@@ -11,9 +10,12 @@
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir
-/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/opencv_related/CMakeFiles/rebuild_cache.dir
-/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/opencv_related/CMakeFiles/edit_cache.dir
-/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir
-/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir
-/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/opencv_related/CMakeFiles/opencv_feature_detection_demo.dir
-/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/opencv_related/CMakeFiles/opencv_blur_image_demo.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_opencv/CMakeFiles/rebuild_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_opencv/CMakeFiles/edit_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_openmp/CMakeFiles/rebuild_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_openmp/CMakeFiles/edit_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build/learning_openmp/CMakeFiles/openmp_demo_01.dir

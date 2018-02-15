@@ -126,21 +126,6 @@ my_flann_with_opencv/fast:
 .PHONY : my_flann_with_opencv/fast
 
 # Convenience name for target.
-learning_flann/CMakeFiles/flann_c_demo.dir/rule:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/flann_c_demo.dir/rule
-.PHONY : learning_flann/CMakeFiles/flann_c_demo.dir/rule
-
-# Convenience name for target.
-flann_c_demo: learning_flann/CMakeFiles/flann_c_demo.dir/rule
-
-.PHONY : flann_c_demo
-
-# fast build rule for target.
-flann_c_demo/fast:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/build
-.PHONY : flann_c_demo/fast
-
-# Convenience name for target.
 learning_flann/CMakeFiles/flann_cpp_demo.dir/rule:
 	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/flann_cpp_demo.dir/rule
 .PHONY : learning_flann/CMakeFiles/flann_cpp_demo.dir/rule
@@ -182,33 +167,6 @@ flann_demo_01.cpp.s:
 	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make learning_flann/CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s
 .PHONY : flann_demo_01.cpp.s
 
-flann_demo_c_01.o: flann_demo_c_01.c.o
-
-.PHONY : flann_demo_c_01.o
-
-# target to build an object file
-flann_demo_c_01.c.o:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.o
-.PHONY : flann_demo_c_01.c.o
-
-flann_demo_c_01.i: flann_demo_c_01.c.i
-
-.PHONY : flann_demo_c_01.i
-
-# target to preprocess a source file
-flann_demo_c_01.c.i:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.i
-.PHONY : flann_demo_c_01.c.i
-
-flann_demo_c_01.s: flann_demo_c_01.c.s
-
-.PHONY : flann_demo_c_01.s
-
-# target to generate assembly for a file
-flann_demo_c_01.c.s:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/build && $(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/flann_demo_c_01.c.s
-.PHONY : flann_demo_c_01.c.s
-
 my_flann_with_opencv.o: my_flann_with_opencv.cpp.o
 
 .PHONY : my_flann_with_opencv.o
@@ -245,14 +203,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... my_flann_with_opencv"
-	@echo "... flann_c_demo"
 	@echo "... flann_cpp_demo"
 	@echo "... flann_demo_01.o"
 	@echo "... flann_demo_01.i"
 	@echo "... flann_demo_01.s"
-	@echo "... flann_demo_c_01.o"
-	@echo "... flann_demo_c_01.i"
-	@echo "... flann_demo_c_01.s"
 	@echo "... my_flann_with_opencv.o"
 	@echo "... my_flann_with_opencv.i"
 	@echo "... my_flann_with_opencv.s"

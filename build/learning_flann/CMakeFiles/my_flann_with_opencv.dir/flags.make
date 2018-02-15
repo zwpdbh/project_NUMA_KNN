@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glib/2.54.3/include/glib-2.0 -I/usr/local/Cellar/glib/2.52.0/lib/glib-2.0/include 
+CXX_INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glib/2.54.3/include/glib-2.0 -I/usr/local/Cellar/glib/2.54.3/lib/glib-2.0/include 
 

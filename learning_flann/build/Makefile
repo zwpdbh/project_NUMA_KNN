@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named my_flann_with_opencv
+# Target rules for targets named opencv_SIFT_with_flann
 
 # Build rule for target.
-my_flann_with_opencv: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_flann_with_opencv
-.PHONY : my_flann_with_opencv
+opencv_SIFT_with_flann: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencv_SIFT_with_flann
+.PHONY : opencv_SIFT_with_flann
 
 # fast build rule for target.
-my_flann_with_opencv/fast:
-	$(MAKE) -f CMakeFiles/my_flann_with_opencv.dir/build.make CMakeFiles/my_flann_with_opencv.dir/build
-.PHONY : my_flann_with_opencv/fast
+opencv_SIFT_with_flann/fast:
+	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/build
+.PHONY : opencv_SIFT_with_flann/fast
+
+#=============================================================================
+# Target rules for targets named opencv_SURF_with_flann
+
+# Build rule for target.
+opencv_SURF_with_flann: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencv_SURF_with_flann
+.PHONY : opencv_SURF_with_flann
+
+# fast build rule for target.
+opencv_SURF_with_flann/fast:
+	$(MAKE) -f CMakeFiles/opencv_SURF_with_flann.dir/build.make CMakeFiles/opencv_SURF_with_flann.dir/build
+.PHONY : opencv_SURF_with_flann/fast
 
 #=============================================================================
 # Target rules for targets named flann_cpp_demo
@@ -163,32 +176,59 @@ flann_demo_01.cpp.s:
 	$(MAKE) -f CMakeFiles/flann_cpp_demo.dir/build.make CMakeFiles/flann_cpp_demo.dir/flann_demo_01.cpp.s
 .PHONY : flann_demo_01.cpp.s
 
-my_flann_with_opencv.o: my_flann_with_opencv.cpp.o
+opencv_SIFT_with_flann.o: opencv_SIFT_with_flann.cpp.o
 
-.PHONY : my_flann_with_opencv.o
+.PHONY : opencv_SIFT_with_flann.o
 
 # target to build an object file
-my_flann_with_opencv.cpp.o:
-	$(MAKE) -f CMakeFiles/my_flann_with_opencv.dir/build.make CMakeFiles/my_flann_with_opencv.dir/my_flann_with_opencv.cpp.o
-.PHONY : my_flann_with_opencv.cpp.o
+opencv_SIFT_with_flann.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.o
+.PHONY : opencv_SIFT_with_flann.cpp.o
 
-my_flann_with_opencv.i: my_flann_with_opencv.cpp.i
+opencv_SIFT_with_flann.i: opencv_SIFT_with_flann.cpp.i
 
-.PHONY : my_flann_with_opencv.i
+.PHONY : opencv_SIFT_with_flann.i
 
 # target to preprocess a source file
-my_flann_with_opencv.cpp.i:
-	$(MAKE) -f CMakeFiles/my_flann_with_opencv.dir/build.make CMakeFiles/my_flann_with_opencv.dir/my_flann_with_opencv.cpp.i
-.PHONY : my_flann_with_opencv.cpp.i
+opencv_SIFT_with_flann.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.i
+.PHONY : opencv_SIFT_with_flann.cpp.i
 
-my_flann_with_opencv.s: my_flann_with_opencv.cpp.s
+opencv_SIFT_with_flann.s: opencv_SIFT_with_flann.cpp.s
 
-.PHONY : my_flann_with_opencv.s
+.PHONY : opencv_SIFT_with_flann.s
 
 # target to generate assembly for a file
-my_flann_with_opencv.cpp.s:
-	$(MAKE) -f CMakeFiles/my_flann_with_opencv.dir/build.make CMakeFiles/my_flann_with_opencv.dir/my_flann_with_opencv.cpp.s
-.PHONY : my_flann_with_opencv.cpp.s
+opencv_SIFT_with_flann.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.s
+.PHONY : opencv_SIFT_with_flann.cpp.s
+
+opencv_SURF_with_flann.o: opencv_SURF_with_flann.cpp.o
+
+.PHONY : opencv_SURF_with_flann.o
+
+# target to build an object file
+opencv_SURF_with_flann.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv_SURF_with_flann.dir/build.make CMakeFiles/opencv_SURF_with_flann.dir/opencv_SURF_with_flann.cpp.o
+.PHONY : opencv_SURF_with_flann.cpp.o
+
+opencv_SURF_with_flann.i: opencv_SURF_with_flann.cpp.i
+
+.PHONY : opencv_SURF_with_flann.i
+
+# target to preprocess a source file
+opencv_SURF_with_flann.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv_SURF_with_flann.dir/build.make CMakeFiles/opencv_SURF_with_flann.dir/opencv_SURF_with_flann.cpp.i
+.PHONY : opencv_SURF_with_flann.cpp.i
+
+opencv_SURF_with_flann.s: opencv_SURF_with_flann.cpp.s
+
+.PHONY : opencv_SURF_with_flann.s
+
+# target to generate assembly for a file
+opencv_SURF_with_flann.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv_SURF_with_flann.dir/build.make CMakeFiles/opencv_SURF_with_flann.dir/opencv_SURF_with_flann.cpp.s
+.PHONY : opencv_SURF_with_flann.cpp.s
 
 # Help Target
 help:
@@ -198,14 +238,18 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... my_flann_with_opencv"
+	@echo "... opencv_SIFT_with_flann"
+	@echo "... opencv_SURF_with_flann"
 	@echo "... flann_cpp_demo"
 	@echo "... flann_demo_01.o"
 	@echo "... flann_demo_01.i"
 	@echo "... flann_demo_01.s"
-	@echo "... my_flann_with_opencv.o"
-	@echo "... my_flann_with_opencv.i"
-	@echo "... my_flann_with_opencv.s"
+	@echo "... opencv_SIFT_with_flann.o"
+	@echo "... opencv_SIFT_with_flann.i"
+	@echo "... opencv_SIFT_with_flann.s"
+	@echo "... opencv_SURF_with_flann.o"
+	@echo "... opencv_SURF_with_flann.i"
+	@echo "... opencv_SURF_with_flann.s"
 .PHONY : help
 
 

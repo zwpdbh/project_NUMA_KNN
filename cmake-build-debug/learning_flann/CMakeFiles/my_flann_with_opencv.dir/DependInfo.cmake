@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/my_flann_with_opencv.cpp" "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/CMakeFiles/my_flann_with_opencv.dir/my_flann_with_opencv.cpp.o"
+  "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/opencv_SIFT_with_flann.cpp" "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_flann/CMakeFiles/my_flann_with_opencv.dir/opencv_SIFT_with_flann.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -124,19 +124,6 @@ my_flann_with_opencv/fast:
 .PHONY : my_flann_with_opencv/fast
 
 #=============================================================================
-# Target rules for targets named flann_c_demo
-
-# Build rule for target.
-flann_c_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 flann_c_demo
-.PHONY : flann_c_demo
-
-# fast build rule for target.
-flann_c_demo/fast:
-	$(MAKE) -f learning_flann/CMakeFiles/flann_c_demo.dir/build.make learning_flann/CMakeFiles/flann_c_demo.dir/build
-.PHONY : flann_c_demo/fast
-
-#=============================================================================
 # Target rules for targets named flann_cpp_demo
 
 # Build rule for target.
@@ -211,7 +198,7 @@ opencv_smoothing_image_demo: cmake_check_build_system
 
 # fast build rule for target.
 opencv_smoothing_image_demo/fast:
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_smoothing_image_demo.dir/build
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/build
 .PHONY : opencv_smoothing_image_demo/fast
 
 #=============================================================================
@@ -224,7 +211,7 @@ flann_with_opencv_demo.cpp: cmake_check_build_system
 
 # fast build rule for target.
 flann_with_opencv_demo.cpp/fast:
-	$(MAKE) -f opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make opencv_related/CMakeFiles/flann_with_opencv_demo.cpp.dir/build
+	$(MAKE) -f learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/build
 .PHONY : flann_with_opencv_demo.cpp/fast
 
 #=============================================================================
@@ -237,7 +224,7 @@ opencv_feature_detection_demo: cmake_check_build_system
 
 # fast build rule for target.
 opencv_feature_detection_demo/fast:
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/build.make opencv_related/CMakeFiles/opencv_feature_detection_demo.dir/build
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/build.make learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/build
 .PHONY : opencv_feature_detection_demo/fast
 
 #=============================================================================
@@ -250,8 +237,21 @@ opencv_blur_image_demo: cmake_check_build_system
 
 # fast build rule for target.
 opencv_blur_image_demo/fast:
-	$(MAKE) -f opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build.make opencv_related/CMakeFiles/opencv_blur_image_demo.dir/build
+	$(MAKE) -f learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/build
 .PHONY : opencv_blur_image_demo/fast
+
+#=============================================================================
+# Target rules for targets named openmp_demo_01
+
+# Build rule for target.
+openmp_demo_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 openmp_demo_01
+.PHONY : openmp_demo_01
+
+# fast build rule for target.
+openmp_demo_01/fast:
+	$(MAKE) -f learning_openmp/CMakeFiles/openmp_demo_01.dir/build.make learning_openmp/CMakeFiles/openmp_demo_01.dir/build
+.PHONY : openmp_demo_01/fast
 
 # Help Target
 help:
@@ -262,7 +262,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... my_flann_with_opencv"
-	@echo "... flann_c_demo"
 	@echo "... flann_cpp_demo"
 	@echo "... demo_redirection"
 	@echo "... demo_waitpid"
@@ -272,6 +271,7 @@ help:
 	@echo "... flann_with_opencv_demo.cpp"
 	@echo "... opencv_feature_detection_demo"
 	@echo "... opencv_blur_image_demo"
+	@echo "... openmp_demo_01"
 .PHONY : help
 
 

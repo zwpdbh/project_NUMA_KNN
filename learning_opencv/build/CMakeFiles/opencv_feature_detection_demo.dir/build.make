@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.10.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related
+CMAKE_SOURCE_DIR = /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/build
+CMAKE_BINARY_DIR = /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/opencv_feature_detection_demo.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/opencv_feature_detection_demo.dir/flags.make
 
 CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.o: CMakeFiles/opencv_feature_detection_demo.dir/flags.make
 CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.o: ../opencv_feature_detection_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.o"
-	/usr/local/opt/llvm/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_feature_detection_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.o"
+	/usr/local/opt/llvm/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.o -c /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/opencv_feature_detection_demo.cpp
 
 CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.i"
-	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_feature_detection_demo.cpp > CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.i
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/opencv_feature_detection_demo.cpp > CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.i
 
 CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.s"
-	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/opencv_feature_detection_demo.cpp -o CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.s
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/opencv_feature_detection_demo.cpp -o CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.s
 
 CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.o.requires:
 
@@ -91,7 +91,7 @@ opencv_feature_detection_demo_EXTERNAL_OBJECTS =
 ../bin/opencv_feature_detection_demo: CMakeFiles/opencv_feature_detection_demo.dir/opencv_feature_detection_demo.cpp.o
 ../bin/opencv_feature_detection_demo: CMakeFiles/opencv_feature_detection_demo.dir/build.make
 ../bin/opencv_feature_detection_demo: CMakeFiles/opencv_feature_detection_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/opencv_feature_detection_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/opencv_feature_detection_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_feature_detection_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/opencv_feature_detection_demo.dir/clean:
 .PHONY : CMakeFiles/opencv_feature_detection_demo.dir/clean
 
 CMakeFiles/opencv_feature_detection_demo.dir/depend:
-	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/build /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/build /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/opencv_related/build/CMakeFiles/opencv_feature_detection_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/build /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/build /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/build/CMakeFiles/opencv_feature_detection_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/opencv_feature_detection_demo.dir/depend
 

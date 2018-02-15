@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named my_flann_with_opencv
+# Target rules for targets named opencv_SIFT_with_flann
 
 # Build rule for target.
-my_flann_with_opencv: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_flann_with_opencv
-.PHONY : my_flann_with_opencv
+opencv_SIFT_with_flann: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencv_SIFT_with_flann
+.PHONY : opencv_SIFT_with_flann
 
 # fast build rule for target.
-my_flann_with_opencv/fast:
-	$(MAKE) -f learning_flann/CMakeFiles/my_flann_with_opencv.dir/build.make learning_flann/CMakeFiles/my_flann_with_opencv.dir/build
-.PHONY : my_flann_with_opencv/fast
+opencv_SIFT_with_flann/fast:
+	$(MAKE) -f learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/build
+.PHONY : opencv_SIFT_with_flann/fast
+
+#=============================================================================
+# Target rules for targets named opencv_SURF_with_flann
+
+# Build rule for target.
+opencv_SURF_with_flann: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencv_SURF_with_flann
+.PHONY : opencv_SURF_with_flann
+
+# fast build rule for target.
+opencv_SURF_with_flann/fast:
+	$(MAKE) -f learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/build
+.PHONY : opencv_SURF_with_flann/fast
 
 #=============================================================================
 # Target rules for targets named flann_cpp_demo
@@ -261,7 +274,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... my_flann_with_opencv"
+	@echo "... opencv_SIFT_with_flann"
+	@echo "... opencv_SURF_with_flann"
 	@echo "... flann_cpp_demo"
 	@echo "... demo_redirection"
 	@echo "... demo_waitpid"
