@@ -19,32 +19,34 @@ using namespace cv;
 int main(int argc, char* argv[]) {
 
     // step 1, get the features from pictures
-    string img01 = "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/data/box.png";
-    string img02 = "/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_opencv/data/box_in_scene.png";
 
-    Mat box_img = imread(img01, IMREAD_GRAYSCALE);
+    Mat img01 = imread("/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/resources/all_souls_000002.jpg", IMREAD_COLOR);
+    Mat img02 = imread("/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/resources/all_souls_000013.jpg", IMREAD_COLOR);
 
     Ptr<xfeatures2d::SIFT> featureDetector = xfeatures2d::SIFT::create(
-        2,
+        0,
         3,
         0.04,
         10,
         1.6
     );
 
-    vector<KeyPoint> keypoints;
-    Mat descriptors;
-    Mat mask = Mat::zeros(box_img.size(), CV_8UC1);
-    featureDetector->detectAndCompute(box_img, mask, keypoints, descriptors);
+    vector<KeyPoint> keypoints_of_img01, keypoints_of_img02;
+    Mat descriptors_of_img01, descriptor_of_img02;
 
-    Mat result_img;
-    cout << "number of keypoints are : " << keypoints.size() << endl;
+    featureDetector->detectAndCompute(img01, Mat(), keypoints_of_img01, descriptors_of_img01);
+    featureDetector->detectAndCompute(img02, Mat(),keypoints_of_img02, descriptor_of_img02);
 
-    drawKeypoints(box_img, keypoints, result_img, Scalar::all(0), DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
+    Mat result_img01, result_img02;
+    cout << "number of keypoints_of_img01 are : " << keypoints_of_img01.size() << endl;
+    cout << "number of keypoints_of_img02 are : " << keypoints_of_img02.size() << endl;
 
-    imshow("SIFT result", result_img);
+    drawKeypoints(img01, keypoints_of_img01, result_img01, Scalar::all(0), DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
+    drawKeypoints(img02, keypoints_of_img02, result_img02, Scalar::all(0), DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
+
+    imshow("SIFT result on image 01", result_img01);
+    imshow("SIFT result on image 02", result_img02);
     waitKey(0);
-
 
     return 0;
 }
