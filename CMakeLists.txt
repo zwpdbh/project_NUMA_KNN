@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.0)
 set(CMAKE_CXX_STANDARD 11)
 
 
@@ -23,7 +23,7 @@ add_subdirectory(learning_opencv)
 add_subdirectory(learning_openmp)
 
 #add_subdirectory(learning_pmc)
-#add_subdirectory(tang_xiaoxin_source_code)
+add_subdirectory(tang_xiaoxin_source_code)
 
 
 

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.0)
 set(CMAKE_CXX_STANDARD 11)
 
 set(CMAKE_C_COMPILER /usr/local/opt/llvm/bin/clang)
@@ -42,6 +42,7 @@ add_executable(
         opencv_SIFT_with_flann
         opencv_SIFT_with_flann.cpp
 )
+target_link_libraries(opencv_SIFT_with_flann PUBLIC opencv_flann)
 
 # ===
 add_executable(

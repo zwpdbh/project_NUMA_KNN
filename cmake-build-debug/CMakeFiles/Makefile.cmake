@@ -15,6 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../learning_flann/CMakeLists.txt"
   "../learning_opencv/CMakeLists.txt"
   "../learning_openmp/CMakeLists.txt"
+  "../tang_xiaoxin_source_code/CMakeLists.txt"
   "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4548.31/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCInformation.cmake"
   "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4548.31/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXInformation.cmake"
   "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4548.31/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCommonLanguageInclude.cmake"
@@ -50,6 +51,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "learning_Unix_programming/CMakeFiles/CMakeDirectoryInformation.cmake"
   "learning_opencv/CMakeFiles/CMakeDirectoryInformation.cmake"
   "learning_openmp/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tang_xiaoxin_source_code/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -66,4 +68,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/DependInfo.cmake"
   "learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/DependInfo.cmake"
   "learning_openmp/CMakeFiles/openmp_demo_01.dir/DependInfo.cmake"
+  "tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/DependInfo.cmake"
   )

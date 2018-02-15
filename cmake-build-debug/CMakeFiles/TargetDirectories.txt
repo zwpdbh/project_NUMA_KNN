@@ -20,3 +20,6 @@
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_openmp/CMakeFiles/rebuild_cache.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_openmp/CMakeFiles/edit_cache.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_openmp/CMakeFiles/openmp_demo_01.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/CMakeFiles/rebuild_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/CMakeFiles/edit_cache.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/CMakeFiles/flann_main.dir

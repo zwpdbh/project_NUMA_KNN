@@ -266,6 +266,19 @@ openmp_demo_01/fast:
 	$(MAKE) -f learning_openmp/CMakeFiles/openmp_demo_01.dir/build.make learning_openmp/CMakeFiles/openmp_demo_01.dir/build
 .PHONY : openmp_demo_01/fast
 
+#=============================================================================
+# Target rules for targets named flann_main
+
+# Build rule for target.
+flann_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 flann_main
+.PHONY : flann_main
+
+# fast build rule for target.
+flann_main/fast:
+	$(MAKE) -f tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/build.make tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/build
+.PHONY : flann_main/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,6 +299,7 @@ help:
 	@echo "... opencv_feature_detection_demo"
 	@echo "... opencv_blur_image_demo"
 	@echo "... openmp_demo_01"
+	@echo "... flann_main"
 .PHONY : help
 
 

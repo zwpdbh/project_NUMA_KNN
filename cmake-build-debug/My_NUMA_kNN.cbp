@@ -5,7 +5,7 @@
 		<Option title="My_NUMA_kNN"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\learning_flann\;CMake Files\learning_Unix_programming\;CMake Files\learning_opencv\;CMake Files\learning_openmp\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\learning_flann\;CMake Files\learning_Unix_programming\;CMake Files\learning_opencv\;CMake Files\learning_openmp\;CMake Files\tang_xiaoxin_source_code\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug"/>
@@ -649,6 +649,56 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/learning_openmp/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="flann_main">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/flann_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/Makefile&quot;  VERBOSE=1 flann_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flann_main/fast">
+				<Option output="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin/flann_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/Makefile&quot;  VERBOSE=1 flann_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/tang_xiaoxin_source_code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_Unix_programming/demo_redirection.cpp">
 			<Option target="demo_redirection"/>
@@ -686,6 +736,42 @@
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_openmp/openmp_demo_01.cpp">
 			<Option target="openmp_demo_01"/>
 		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/common.h">
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/csv_parser.cpp">
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/csv_parser.h">
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/flann_kdtree_index.h">
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/flann_kmeans_index.h">
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/flann_linear_index.h">
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/main.cpp">
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/main.h">
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/rbc_index.cpp">
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/rbc_index.h">
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/sdc_index.cpp">
+			<Option target="flann_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/sdc_index.h">
+			<Option target="flann_main"/>
+		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -700,6 +786,9 @@
 		</Unit>
 		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_openmp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\learning_openmp\"/>
+		</Unit>
+		<Unit filename="/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/tang_xiaoxin_source_code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tang_xiaoxin_source_code\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
