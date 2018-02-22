@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/lear
 CMakeFiles/opencv_SIFT_with_flann.dir/all:
 	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/depend
 	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles --progress-num=3,4 "Built target opencv_SIFT_with_flann"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles --progress-num=5,6 "Built target opencv_SIFT_with_flann"
 .PHONY : CMakeFiles/opencv_SIFT_with_flann.dir/all
 
 # Include target in all.
@@ -97,13 +97,50 @@ clean: CMakeFiles/opencv_SIFT_with_flann.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/flann_KNN.dir
+
+# All Build rule for target.
+CMakeFiles/flann_KNN.dir/all:
+	$(MAKE) -f CMakeFiles/flann_KNN.dir/build.make CMakeFiles/flann_KNN.dir/depend
+	$(MAKE) -f CMakeFiles/flann_KNN.dir/build.make CMakeFiles/flann_KNN.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles --progress-num=1,2 "Built target flann_KNN"
+.PHONY : CMakeFiles/flann_KNN.dir/all
+
+# Include target in all.
+all: CMakeFiles/flann_KNN.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/flann_KNN.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/flann_KNN.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles 0
+.PHONY : CMakeFiles/flann_KNN.dir/rule
+
+# Convenience name for target.
+flann_KNN: CMakeFiles/flann_KNN.dir/rule
+
+.PHONY : flann_KNN
+
+# clean rule for target.
+CMakeFiles/flann_KNN.dir/clean:
+	$(MAKE) -f CMakeFiles/flann_KNN.dir/build.make CMakeFiles/flann_KNN.dir/clean
+.PHONY : CMakeFiles/flann_KNN.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/flann_KNN.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/opencv_SURF_with_flann.dir
 
 # All Build rule for target.
 CMakeFiles/opencv_SURF_with_flann.dir/all:
 	$(MAKE) -f CMakeFiles/opencv_SURF_with_flann.dir/build.make CMakeFiles/opencv_SURF_with_flann.dir/depend
 	$(MAKE) -f CMakeFiles/opencv_SURF_with_flann.dir/build.make CMakeFiles/opencv_SURF_with_flann.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles --progress-num=5,6 "Built target opencv_SURF_with_flann"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles --progress-num=7,8 "Built target opencv_SURF_with_flann"
 .PHONY : CMakeFiles/opencv_SURF_with_flann.dir/all
 
 # Include target in all.
@@ -140,7 +177,7 @@ clean: CMakeFiles/opencv_SURF_with_flann.dir/clean
 CMakeFiles/flann_cpp_demo.dir/all:
 	$(MAKE) -f CMakeFiles/flann_cpp_demo.dir/build.make CMakeFiles/flann_cpp_demo.dir/depend
 	$(MAKE) -f CMakeFiles/flann_cpp_demo.dir/build.make CMakeFiles/flann_cpp_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles --progress-num=1,2 "Built target flann_cpp_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles --progress-num=3,4 "Built target flann_cpp_demo"
 .PHONY : CMakeFiles/flann_cpp_demo.dir/all
 
 # Include target in all.

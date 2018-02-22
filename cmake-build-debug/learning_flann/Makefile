@@ -126,6 +126,21 @@ opencv_SIFT_with_flann/fast:
 .PHONY : opencv_SIFT_with_flann/fast
 
 # Convenience name for target.
+learning_flann/CMakeFiles/flann_KNN.dir/rule:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/flann_KNN.dir/rule
+.PHONY : learning_flann/CMakeFiles/flann_KNN.dir/rule
+
+# Convenience name for target.
+flann_KNN: learning_flann/CMakeFiles/flann_KNN.dir/rule
+
+.PHONY : flann_KNN
+
+# fast build rule for target.
+flann_KNN/fast:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/flann_KNN.dir/build.make learning_flann/CMakeFiles/flann_KNN.dir/build
+.PHONY : flann_KNN/fast
+
+# Convenience name for target.
 learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/rule:
 	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/rule
 .PHONY : learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/rule
@@ -154,6 +169,33 @@ flann_cpp_demo: learning_flann/CMakeFiles/flann_cpp_demo.dir/rule
 flann_cpp_demo/fast:
 	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make learning_flann/CMakeFiles/flann_cpp_demo.dir/build
 .PHONY : flann_cpp_demo/fast
+
+flann_KNN.o: flann_KNN.cpp.o
+
+.PHONY : flann_KNN.o
+
+# target to build an object file
+flann_KNN.cpp.o:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/flann_KNN.dir/build.make learning_flann/CMakeFiles/flann_KNN.dir/flann_KNN.cpp.o
+.PHONY : flann_KNN.cpp.o
+
+flann_KNN.i: flann_KNN.cpp.i
+
+.PHONY : flann_KNN.i
+
+# target to preprocess a source file
+flann_KNN.cpp.i:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/flann_KNN.dir/build.make learning_flann/CMakeFiles/flann_KNN.dir/flann_KNN.cpp.i
+.PHONY : flann_KNN.cpp.i
+
+flann_KNN.s: flann_KNN.cpp.s
+
+.PHONY : flann_KNN.s
+
+# target to generate assembly for a file
+flann_KNN.cpp.s:
+	cd /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug && $(MAKE) -f learning_flann/CMakeFiles/flann_KNN.dir/build.make learning_flann/CMakeFiles/flann_KNN.dir/flann_KNN.cpp.s
+.PHONY : flann_KNN.cpp.s
 
 flann_demo_01.o: flann_demo_01.cpp.o
 
@@ -245,8 +287,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... opencv_SIFT_with_flann"
+	@echo "... flann_KNN"
 	@echo "... opencv_SURF_with_flann"
 	@echo "... flann_cpp_demo"
+	@echo "... flann_KNN.o"
+	@echo "... flann_KNN.i"
+	@echo "... flann_KNN.s"
 	@echo "... flann_demo_01.o"
 	@echo "... flann_demo_01.i"
 	@echo "... flann_demo_01.s"

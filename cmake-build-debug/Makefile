@@ -124,6 +124,19 @@ opencv_SIFT_with_flann/fast:
 .PHONY : opencv_SIFT_with_flann/fast
 
 #=============================================================================
+# Target rules for targets named flann_KNN
+
+# Build rule for target.
+flann_KNN: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 flann_KNN
+.PHONY : flann_KNN
+
+# fast build rule for target.
+flann_KNN/fast:
+	$(MAKE) -f learning_flann/CMakeFiles/flann_KNN.dir/build.make learning_flann/CMakeFiles/flann_KNN.dir/build
+.PHONY : flann_KNN/fast
+
+#=============================================================================
 # Target rules for targets named opencv_SURF_with_flann
 
 # Build rule for target.
@@ -288,6 +301,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... opencv_SIFT_with_flann"
+	@echo "... flann_KNN"
 	@echo "... opencv_SURF_with_flann"
 	@echo "... flann_cpp_demo"
 	@echo "... demo_redirection"

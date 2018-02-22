@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/opencv_SIFT_with_flann.dir/DependInfo.cmake"
+  "CMakeFiles/flann_KNN.dir/DependInfo.cmake"
   "CMakeFiles/opencv_SURF_with_flann.dir/DependInfo.cmake"
   "CMakeFiles/flann_cpp_demo.dir/DependInfo.cmake"
   )

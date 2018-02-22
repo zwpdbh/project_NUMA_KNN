@@ -3,6 +3,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="My_NUMA_kNN" targetName="opencv_SURF_with_flann" />
+      <config projectName="My_NUMA_kNN" targetName="flann_KNN" />
       <config projectName="My_NUMA_kNN" targetName="flann_main" />
       <config projectName="My_NUMA_kNN" targetName="openmp_demo_01" />
       <config projectName="My_NUMA_kNN" targetName="demo_waitpid" />
@@ -29,104 +30,32 @@
   <component name="ChangeListManager">
     <list default="true" id="e271a0f9-e97d-4cc8-979c-fe1797f2457e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/bin/flann_cpp_demo" afterPath="$PROJECT_DIR$/bin/flann_cpp_demo" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" afterPath="$PROJECT_DIR$/build/Makefile" />
-      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_redirection.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_01.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_signal_02.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/CMakeFiles/demo_waitpid.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/Makefile" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/Makefile" />
-      <change beforePath="$PROJECT_DIR$/build/learning_Unix_programming/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/learning_Unix_programming/cmake_install.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/link.txt" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/flann_cpp_demo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/learning_flann/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/Makefile" afterPath="$PROJECT_DIR$/build/learning_flann/Makefile" />
-      <change beforePath="$PROJECT_DIR$/build/learning_flann/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/learning_flann/cmake_install.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/progress.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/progress.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/progress.make" afterPath="$PROJECT_DIR$/build/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/Makefile" afterPath="$PROJECT_DIR$/build/learning_opencv/Makefile" />
-      <change beforePath="$PROJECT_DIR$/build/learning_opencv/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/learning_opencv/cmake_install.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/openmp_demo_01.dir/build.make" afterPath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/openmp_demo_01.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/openmp_demo_01.dir/depend.internal" afterPath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/openmp_demo_01.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/openmp_demo_01.dir/depend.make" afterPath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/openmp_demo_01.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/openmp_demo_01.dir/flags.make" afterPath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/openmp_demo_01.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/openmp_demo_01.dir/progress.make" afterPath="$PROJECT_DIR$/build/learning_openmp/CMakeFiles/openmp_demo_01.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/learning_openmp/Makefile" afterPath="$PROJECT_DIR$/build/learning_openmp/Makefile" />
-      <change beforePath="$PROJECT_DIR$/build/learning_openmp/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/learning_openmp/cmake_install.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_NUMA_kNN.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/My_NUMA_kNN.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_cpp_demo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/flann_cpp_demo.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_flann/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_flann/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/learning_openmp/CMakeFiles/openmp_demo_01.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/learning_openmp/CMakeFiles/openmp_demo_01.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/learning_Unix_programming/CMakeLists.txt" afterPath="$PROJECT_DIR$/learning_Unix_programming/CMakeLists.txt" />
       <change beforePath="$PROJECT_DIR$/learning_flann/CMakeLists.txt" afterPath="$PROJECT_DIR$/learning_flann/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/bin/opencv_SIFT_with_flann" afterPath="$PROJECT_DIR$/learning_flann/bin/opencv_SIFT_with_flann" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/opencv_SIFT_with_flann.dir/link.txt" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/opencv_SIFT_with_flann.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.o" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/learning_flann/opencv_SIFT_with_flann.cpp" afterPath="$PROJECT_DIR$/learning_flann/opencv_SIFT_with_flann.cpp" />
-      <change beforePath="$PROJECT_DIR$/learning_opencv/CMakeLists.txt" afterPath="$PROJECT_DIR$/learning_opencv/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/learning_openmp/CMakeLists.txt" afterPath="$PROJECT_DIR$/learning_openmp/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/learning_pmc/CMakeLists.txt" afterPath="$PROJECT_DIR$/learning_pmc/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/tang_xiaoxin_source_code/CMakeLists.txt" afterPath="$PROJECT_DIR$/tang_xiaoxin_source_code/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/progress.make" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/flann_cpp_demo.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/opencv_SIFT_with_flann.dir/progress.make" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/opencv_SIFT_with_flann.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/opencv_SURF_with_flann.dir/progress.make" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/opencv_SURF_with_flann.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/learning_flann/build/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/learning_flann/build/Makefile" afterPath="$PROJECT_DIR$/learning_flann/build/Makefile" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,93 +74,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/CMakeLists.txt">
+      <file leaf-file-name="flann_KNN.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learning_flann/flann_KNN.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/main.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="84" column="17" lean-forward="false" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csv_parser.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/csv_parser.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2840">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flann_kdtree_index.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kdtree_index.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4561">
-              <caret line="461" column="29" lean-forward="false" selection-start-line="461" selection-start-column="20" selection-end-line="461" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sdc_index.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_index.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sdc_kmeans.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_kmeans.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="404">
+              <caret line="60" column="14" lean-forward="false" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
               <folding>
-                <element signature="e#49#69#0" expanded="true" />
+                <element signature="e#43#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file leaf-file-name="matrix.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/flann/util/matrix.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="138">
+              <caret line="76" column="15" lean-forward="false" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="15" />
+              <folding>
+                <element signature="e#2544#2562#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flann_linear_index.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_linear_index.h">
+      <file leaf-file-name="opencv_SIFT_with_flann.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learning_flann/opencv_SIFT_with_flann.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1892">
-              <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="277">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -241,9 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cpu_id</find>
-      <find>node_id</find>
-      <find>state</find>
       <find>cpu_set_t</find>
       <find>buf</find>
       <find>app</find>
@@ -271,6 +139,9 @@
       <find>feature</find>
       <find>features2d</find>
       <find>DistanceType</find>
+      <find>descriptor</find>
+      <find>index</find>
+      <find>buildIndex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -310,9 +181,10 @@
         <option value="$PROJECT_DIR$/learning_flann/flann_demo_01.cpp" />
         <option value="$PROJECT_DIR$/learning_flann/my_flann_with_opencv.cpp" />
         <option value="$PROJECT_DIR$/learning_flann/opencv_SURF_with_flann.cpp" />
-        <option value="$PROJECT_DIR$/learning_flann/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/learning_flann/opencv_SIFT_with_flann.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/learning_flann/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/learning_flann/flann_KNN.cpp" />
       </list>
     </option>
   </component>
@@ -322,10 +194,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="144" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="716" />
+    <option name="height" value="837" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -355,7 +227,7 @@
             <path>
               <item name="My_NUMA_kNN" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="source_code_mac_osx" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_flann" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="My_NUMA_kNN" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
@@ -398,48 +270,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.opencv_SIFT_with_flann">
-    <configuration name="demo_redirection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_NUMA_kNN" TARGET_NAME="demo_redirection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_NUMA_kNN" RUN_TARGET_NAME="flann_with_opencv_demo.cpp">
-      <envs />
-    </configuration>
-    <configuration name="flann_cpp_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_NUMA_kNN" TARGET_NAME="flann_cpp_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_NUMA_kNN" RUN_TARGET_NAME="opencv_SIFT_with_flann">
-      <envs />
-    </configuration>
-    <configuration name="flann_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_NUMA_kNN" TARGET_NAME="flann_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_NUMA_kNN" RUN_TARGET_NAME="flann_main">
-      <envs />
-    </configuration>
-    <configuration name="flann_with_opencv_demo.cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_NUMA_kNN" TARGET_NAME="flann_with_opencv_demo.cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_NUMA_kNN" RUN_TARGET_NAME="flann_with_opencv_demo.cpp">
+  <component name="RunManager" selected="Application.flann_KNN">
+    <configuration name="flann_KNN" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_NUMA_kNN" TARGET_NAME="flann_KNN" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_NUMA_kNN" RUN_TARGET_NAME="flann_KNN">
       <envs />
     </configuration>
     <configuration name="opencv_SIFT_with_flann" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_NUMA_kNN" TARGET_NAME="opencv_SIFT_with_flann" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_NUMA_kNN" RUN_TARGET_NAME="opencv_SIFT_with_flann">
       <envs />
     </configuration>
-    <configuration name="opencv_SURF_with_flann" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_NUMA_kNN" TARGET_NAME="opencv_SURF_with_flann" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_NUMA_kNN" RUN_TARGET_NAME="opencv_SURF_with_flann">
-      <envs />
-    </configuration>
-    <configuration name="opencv_blur_image_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_NUMA_kNN" TARGET_NAME="opencv_blur_image_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_NUMA_kNN" RUN_TARGET_NAME="my_flann_with_opencv">
-      <envs />
-    </configuration>
-    <configuration name="opencv_feature_detection_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_NUMA_kNN" TARGET_NAME="opencv_feature_detection_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_NUMA_kNN" RUN_TARGET_NAME="my_flann_with_opencv">
-      <envs />
-    </configuration>
-    <configuration name="opencv_smoothing_image_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_NUMA_kNN" TARGET_NAME="opencv_smoothing_image_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_NUMA_kNN" RUN_TARGET_NAME="my_flann_with_opencv">
-      <envs />
-    </configuration>
-    <configuration name="openmp_demo_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_NUMA_kNN" TARGET_NAME="openmp_demo_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_NUMA_kNN" RUN_TARGET_NAME="my_flann_with_opencv">
-      <envs />
-    </configuration>
-    <list size="10">
-      <item index="0" class="java.lang.String" itemvalue="Application.flann_cpp_demo" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.flann_KNN" />
       <item index="1" class="java.lang.String" itemvalue="Application.opencv_SIFT_with_flann" />
-      <item index="2" class="java.lang.String" itemvalue="Application.opencv_SURF_with_flann" />
-      <item index="3" class="java.lang.String" itemvalue="Application.demo_redirection" />
-      <item index="4" class="java.lang.String" itemvalue="Application.flann_with_opencv_demo.cpp" />
-      <item index="5" class="java.lang.String" itemvalue="Application.opencv_blur_image_demo" />
-      <item index="6" class="java.lang.String" itemvalue="Application.opencv_feature_detection_demo" />
-      <item index="7" class="java.lang.String" itemvalue="Application.opencv_smoothing_image_demo" />
-      <item index="8" class="java.lang.String" itemvalue="Application.openmp_demo_01" />
-      <item index="9" class="java.lang.String" itemvalue="Application.flann_main" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -491,14 +331,16 @@
       <workItem from="1518646209289" duration="213000" />
       <workItem from="1518652131954" duration="3513000" />
       <workItem from="1518666372713" duration="1137000" />
+      <workItem from="1518742090342" duration="766000" />
+      <workItem from="1518814276666" duration="7142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93087000" />
+    <option name="totallyTimeSpent" value="100995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="837" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -508,7 +350,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30727762" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23962805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -564,41 +406,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kmeans_index.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="1064" column="36" lean-forward="false" selection-start-line="1064" selection-start-column="36" selection-end-line="1064" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/flann/algorithms/kdtree_index.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/flann/util/params.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning_Unix_programming/demo_fork.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/sys/signal.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="366" column="18" lean-forward="true" selection-start-line="366" selection-start-column="18" selection-end-line="366" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learning_Unix_programming/demo_signal_02.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -689,20 +496,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/rbc_index.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/rbc_index.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flann_under_clang/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/flann_under_clang/flann_under_clang_demo.cpp" />
     <entry file="file://$PROJECT_DIR$/learning_opencv/opencv_feature_detection_demo.cpp">
@@ -748,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning_flann/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learning_opencv/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -766,102 +552,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning_flann/flann_demo_01.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="27" column="73" lean-forward="false" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt.user">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6576">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt.user" />
     <entry file="file://$PROJECT_DIR$/resources/all_souls_000013.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning_flann/opencv_SIFT_with_flann.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning_flann/opencv_SURF_with_flann.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/csv_parser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="218">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/main.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/csv_parser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2840">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kdtree_index.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4561">
-          <caret line="461" column="29" lean-forward="false" selection-start-line="461" selection-start-column="20" selection-end-line="461" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_index.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_kmeans.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="e#49#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,26 +592,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/learning_flann/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="60" column="54" lean-forward="false" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_flann/opencv_SURF_with_flann.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/types.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="712" column="48" lean-forward="true" selection-start-line="712" selection-start-column="48" selection-end-line="712" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_flann/flann_demo_01.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#43#69#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_index.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/rbc_index.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="108" column="9" lean-forward="true" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_linear_index.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1892">
+        <state relative-caret-position="45">
           <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_kmeans.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="e#49#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/sdc_index.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="142" column="59" lean-forward="true" selection-start-line="142" selection-start-column="59" selection-end-line="142" selection-end-column="59" />
+        <state relative-caret-position="271">
+          <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kmeans_index.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/common.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#142#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/flann_kdtree_index.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="400">
           <caret line="84" column="17" lean-forward="false" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/rbc_index.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tang_xiaoxin_source_code/main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_flann/flann_KNN.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="60" column="14" lean-forward="false" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+          <folding>
+            <element signature="e#43#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/flann/util/matrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="76" column="15" lean-forward="false" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="15" />
+          <folding>
+            <element signature="e#2544#2562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_flann/opencv_SIFT_with_flann.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>

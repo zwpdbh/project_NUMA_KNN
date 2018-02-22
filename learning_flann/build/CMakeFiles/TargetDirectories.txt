@@ -1,5 +1,6 @@
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles/rebuild_cache.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles/edit_cache.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles/opencv_SIFT_with_flann.dir
+/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles/flann_KNN.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles/opencv_SURF_with_flann.dir
 /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/learning_flann/build/CMakeFiles/flann_cpp_demo.dir

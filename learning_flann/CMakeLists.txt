@@ -50,3 +50,12 @@ add_executable(
         opencv_SURF_with_flann.cpp
 )
 target_link_libraries(opencv_SURF_with_flann PUBLIC opencv_flann)
+
+
+# ===
+add_executable(
+        flann_KNN
+        flann_KNN.cpp
+)
+target_link_libraries(flann_KNN PUBLIC flann omp)
+target_compile_options(flann_cpp_demo PUBLIC -fopenmp)

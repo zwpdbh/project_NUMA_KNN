@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmak
 
 # Convenience name for "all" pass in the directory.
 learning_flann/all: learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/all
+learning_flann/all: learning_flann/CMakeFiles/flann_KNN.dir/all
 learning_flann/all: learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/all
 learning_flann/all: learning_flann/CMakeFiles/flann_cpp_demo.dir/all
 
@@ -71,6 +72,7 @@ learning_flann/all: learning_flann/CMakeFiles/flann_cpp_demo.dir/all
 
 # Convenience name for "clean" pass in the directory.
 learning_flann/clean: learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/clean
+learning_flann/clean: learning_flann/CMakeFiles/flann_KNN.dir/clean
 learning_flann/clean: learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/clean
 learning_flann/clean: learning_flann/CMakeFiles/flann_cpp_demo.dir/clean
 
@@ -88,7 +90,7 @@ learning_flann/preinstall:
 learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/all:
 	$(MAKE) -f learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/depend
 	$(MAKE) -f learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target opencv_SIFT_with_flann"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target opencv_SIFT_with_flann"
 .PHONY : learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/all
 
 # Include target in all.
@@ -119,13 +121,50 @@ clean: learning_flann/CMakeFiles/opencv_SIFT_with_flann.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target learning_flann/CMakeFiles/flann_KNN.dir
+
+# All Build rule for target.
+learning_flann/CMakeFiles/flann_KNN.dir/all:
+	$(MAKE) -f learning_flann/CMakeFiles/flann_KNN.dir/build.make learning_flann/CMakeFiles/flann_KNN.dir/depend
+	$(MAKE) -f learning_flann/CMakeFiles/flann_KNN.dir/build.make learning_flann/CMakeFiles/flann_KNN.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target flann_KNN"
+.PHONY : learning_flann/CMakeFiles/flann_KNN.dir/all
+
+# Include target in all.
+all: learning_flann/CMakeFiles/flann_KNN.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+learning_flann/CMakeFiles/flann_KNN.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 learning_flann/CMakeFiles/flann_KNN.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles 0
+.PHONY : learning_flann/CMakeFiles/flann_KNN.dir/rule
+
+# Convenience name for target.
+flann_KNN: learning_flann/CMakeFiles/flann_KNN.dir/rule
+
+.PHONY : flann_KNN
+
+# clean rule for target.
+learning_flann/CMakeFiles/flann_KNN.dir/clean:
+	$(MAKE) -f learning_flann/CMakeFiles/flann_KNN.dir/build.make learning_flann/CMakeFiles/flann_KNN.dir/clean
+.PHONY : learning_flann/CMakeFiles/flann_KNN.dir/clean
+
+# clean rule for target.
+clean: learning_flann/CMakeFiles/flann_KNN.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target learning_flann/CMakeFiles/opencv_SURF_with_flann.dir
 
 # All Build rule for target.
 learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/all:
 	$(MAKE) -f learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/depend
 	$(MAKE) -f learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/build.make learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target opencv_SURF_with_flann"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target opencv_SURF_with_flann"
 .PHONY : learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/all
 
 # Include target in all.
@@ -162,7 +201,7 @@ clean: learning_flann/CMakeFiles/opencv_SURF_with_flann.dir/clean
 learning_flann/CMakeFiles/flann_cpp_demo.dir/all:
 	$(MAKE) -f learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make learning_flann/CMakeFiles/flann_cpp_demo.dir/depend
 	$(MAKE) -f learning_flann/CMakeFiles/flann_cpp_demo.dir/build.make learning_flann/CMakeFiles/flann_cpp_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target flann_cpp_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target flann_cpp_demo"
 .PHONY : learning_flann/CMakeFiles/flann_cpp_demo.dir/all
 
 # Include target in all.
@@ -395,7 +434,7 @@ learning_opencv/preinstall:
 learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/all:
 	$(MAKE) -f learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/depend
 	$(MAKE) -f learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target opencv_smoothing_image_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target opencv_smoothing_image_demo"
 .PHONY : learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/all
 
 # Include target in all.
@@ -432,7 +471,7 @@ clean: learning_opencv/CMakeFiles/opencv_smoothing_image_demo.dir/clean
 learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/all:
 	$(MAKE) -f learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/depend
 	$(MAKE) -f learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/build.make learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target flann_with_opencv_demo.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target flann_with_opencv_demo.cpp"
 .PHONY : learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/all
 
 # Include target in all.
@@ -469,7 +508,7 @@ clean: learning_opencv/CMakeFiles/flann_with_opencv_demo.cpp.dir/clean
 learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/all:
 	$(MAKE) -f learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/build.make learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/depend
 	$(MAKE) -f learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/build.make learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target opencv_feature_detection_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target opencv_feature_detection_demo"
 .PHONY : learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/all
 
 # Include target in all.
@@ -506,7 +545,7 @@ clean: learning_opencv/CMakeFiles/opencv_feature_detection_demo.dir/clean
 learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/all:
 	$(MAKE) -f learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/depend
 	$(MAKE) -f learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/build.make learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target opencv_blur_image_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target opencv_blur_image_demo"
 .PHONY : learning_opencv/CMakeFiles/opencv_blur_image_demo.dir/all
 
 # Include target in all.
@@ -561,7 +600,7 @@ learning_openmp/preinstall:
 learning_openmp/CMakeFiles/openmp_demo_01.dir/all:
 	$(MAKE) -f learning_openmp/CMakeFiles/openmp_demo_01.dir/build.make learning_openmp/CMakeFiles/openmp_demo_01.dir/depend
 	$(MAKE) -f learning_openmp/CMakeFiles/openmp_demo_01.dir/build.make learning_openmp/CMakeFiles/openmp_demo_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target openmp_demo_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target openmp_demo_01"
 .PHONY : learning_openmp/CMakeFiles/openmp_demo_01.dir/all
 
 # Include target in all.
@@ -616,7 +655,7 @@ tang_xiaoxin_source_code/preinstall:
 tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/all:
 	$(MAKE) -f tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/build.make tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/depend
 	$(MAKE) -f tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/build.make tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14,15 "Built target flann_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/Downloads/project_NUMA_KNN/source_code_mac_osx/cmake-build-debug/CMakeFiles --progress-num=13,14,15,16,17 "Built target flann_main"
 .PHONY : tang_xiaoxin_source_code/CMakeFiles/flann_main.dir/all
 
 # Include target in all.
